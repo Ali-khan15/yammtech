@@ -5,13 +5,13 @@
       <template #nav>what we do</template>
     </base-hero>
 
-    <!-- CORE SERVICES - UPGRADED -->
+    <!-- CORE SERVICES - Updated with YammTech services -->
     <div class="coreServices topPaddingO">
       <div class="container">
         <div class="content">
           <div class="head">
             <div class="homeheadsec">our expertise</div>
-            <div class="mainTitle">Engineering digital excellence</div>
+            <div class="mainTitle">Comprehensive digital solutions</div>
           </div>
           <div class="row">
             <div class="col-xl-5 col-lg-6 col-12">
@@ -22,7 +22,7 @@
                     data-imgNum="1"
                     class="activeClip"
                     src="../../imgs/servicesAssets/service_7.webp"
-                    alt="web development"
+                    alt="website development"
                   />
                   <img
                     loading="lazy"
@@ -36,20 +36,21 @@
                     data-imgNum="3"
                     class=""
                     src="../../imgs/servicesAssets/service_9.webp"
-                    alt="cloud solutions"
+                    alt="digital marketing"
                   />
                   <img
                     loading="lazy"
                     data-imgNum="4"
                     class=""
                     src="../../imgs/servicesAssets/service_10.webp"
-                    alt="ai ml"
+                    alt="3d rendering"
                   />
                 </div>
               </div>
             </div>
             <div class="col-xl-7 col-lg-6 col-12">
               <ul>
+                <!-- Service 1: Website Development -->
                 <li>
                   <div
                     data-imgNum="1"
@@ -57,11 +58,13 @@
                     :class="['linkcont', { active: activeService === '1' }]"
                   >
                     <div class="info">
-                      <div class="servname">Web Development</div>
+                      <div class="servname">Website Development</div>
                       <p>
-                        Scalable, high-performance web applications built with
-                        modern frameworks like React, Vue, and Node.js. From
-                        SPAs to enterprise portals.
+                        Custom, high-performance websites and web applications
+                        built with modern frameworks like React, Vue, and
+                        Node.js. From corporate sites to complex enterprise
+                        portals, we deliver scalable, secure, and SEO-optimized
+                        solutions.
                       </p>
                     </div>
                     <div class="arrowIcon">
@@ -71,6 +74,8 @@
                     </div>
                   </div>
                 </li>
+
+                <!-- Service 2: Mobile Applications -->
                 <li>
                   <div
                     data-imgNum="2"
@@ -78,11 +83,12 @@
                     :class="['linkcont', { active: activeService === '2' }]"
                   >
                     <div class="info">
-                      <div class="servname">Mobile Development</div>
+                      <div class="servname">Mobile Applications</div>
                       <p>
                         Native and cross-platform mobile apps for iOS and
-                        Android. Flutter, React Native, and Kotlin expertise for
-                        seamless user experiences.
+                        Android. We build feature-rich, intuitive applications
+                        using Flutter, React Native, and native technologies
+                        that users love to engage with.
                       </p>
                     </div>
                     <div class="arrowIcon">
@@ -92,6 +98,8 @@
                     </div>
                   </div>
                 </li>
+
+                <!-- Service 3: SEO & Digital Marketing -->
                 <li>
                   <div
                     data-imgNum="3"
@@ -99,11 +107,12 @@
                     :class="['linkcont', { active: activeService === '3' }]"
                   >
                     <div class="info">
-                      <div class="servname">Cloud & DevOps</div>
+                      <div class="servname">SEO & Digital Marketing</div>
                       <p>
-                        AWS, Azure, and Google Cloud solutions with CI/CD
-                        pipelines, containerization, and infrastructure as code
-                        for scalable, reliable systems.
+                        Data-driven SEO strategies and digital marketing
+                        campaigns that increase visibility, drive qualified
+                        traffic, and maximize conversions. From keyword research
+                        to content strategy and analytics.
                       </p>
                     </div>
                     <div class="arrowIcon">
@@ -113,6 +122,8 @@
                     </div>
                   </div>
                 </li>
+
+                <!-- Service 4: 3D Rendering -->
                 <li>
                   <div
                     data-imgNum="4"
@@ -120,11 +131,12 @@
                     :class="['linkcont', { active: activeService === '4' }]"
                   >
                     <div class="info">
-                      <div class="servname">AI & Machine Learning</div>
+                      <div class="servname">3D Rendering</div>
                       <p>
-                        Intelligent systems powered by LLMs, computer vision,
-                        and predictive analytics. Custom AI solutions that
-                        transform data into decisions.
+                        Photorealistic 3D rendering, architectural
+                        visualization, and interactive 3D experiences. We bring
+                        concepts to life with stunning visuals for real estate,
+                        product design, and immersive web experiences.
                       </p>
                     </div>
                     <div class="arrowIcon">
@@ -141,7 +153,66 @@
       </div>
     </div>
 
-    <!-- TECH STACK SECTION - UPGRADED -->
+    <!-- CONSULTING SECTION (5th service - Special highlight) -->
+    <div class="consultingSection">
+      <div class="container">
+        <div class="content">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="consulting-badge">Service Highlight</div>
+              <div class="mainTitle">Technology Consulting</div>
+              <p class="consulting-desc">
+                Strategic technology consulting that bridges the gap between
+                business goals and technical execution. Our experienced
+                consultants help you make informed decisions about architecture,
+                stack selection, digital transformation, and technology roadmap
+                planning.
+              </p>
+              <ul class="consulting-list">
+                <li>
+                  <font-awesome-icon
+                    icon="fa-solid fa-check-circle"
+                    style="color: #1f51fe"
+                  />
+                  <span>IT Strategy & Roadmap</span>
+                </li>
+                <li>
+                  <font-awesome-icon
+                    icon="fa-solid fa-check-circle"
+                    style="color: #1f51fe"
+                  />
+                  <span>Technology Stack Advisory</span>
+                </li>
+                <li>
+                  <font-awesome-icon
+                    icon="fa-solid fa-check-circle"
+                    style="color: #1f51fe"
+                  />
+                  <span>Digital Transformation</span>
+                </li>
+                <li>
+                  <font-awesome-icon
+                    icon="fa-solid fa-check-circle"
+                    style="color: #1f51fe"
+                  />
+                  <span>Architecture Review & Optimization</span>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <div class="consulting-image glasseffect">
+                <img
+                  src="../../imgs/servicesAssets/service_img_1.webp"
+                  alt="technology consulting"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TECH STACK SECTION - Keep but update text -->
     <div class="relatedServices">
       <div class="container">
         <div class="content row">
@@ -156,7 +227,7 @@
           </div>
           <div class="col-lg-6 col-12 offset-xl-1">
             <div class="info-container">
-              <div class="mainTitle">Our technology ecosystem</div>
+              <div class="mainTitle">Technologies we master</div>
               <div class="row">
                 <div class="col-md-6 col-12">
                   <ul>
@@ -165,7 +236,7 @@
                         <font-awesome-icon
                           icon="fa-solid fa-arrow-right-long"
                         />
-                        <div class="hoveranim">React / Next.js</div>
+                        <div class="hoveranim">React / Next.js / Vue</div>
                       </div>
                     </li>
                     <li>
@@ -173,7 +244,7 @@
                         <font-awesome-icon
                           icon="fa-solid fa-arrow-right-long"
                         />
-                        <div class="hoveranim">Vue / Nuxt</div>
+                        <div class="hoveranim">Node.js / Python / PHP</div>
                       </div>
                     </li>
                     <li>
@@ -181,7 +252,9 @@
                         <font-awesome-icon
                           icon="fa-solid fa-arrow-right-long"
                         />
-                        <div class="hoveranim">Node.js / Python</div>
+                        <div class="hoveranim">
+                          Flutter / React Native / Kotlin
+                        </div>
                       </div>
                     </li>
                     <li>
@@ -189,23 +262,7 @@
                         <font-awesome-icon
                           icon="fa-solid fa-arrow-right-long"
                         />
-                        <div class="hoveranim">AWS / Azure / GCP</div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="goToBtn">
-                        <font-awesome-icon
-                          icon="fa-solid fa-arrow-right-long"
-                        />
-                        <div class="hoveranim">Docker / Kubernetes</div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="goToBtn">
-                        <font-awesome-icon
-                          icon="fa-solid fa-arrow-right-long"
-                        />
-                        <div class="hoveranim">TensorFlow / PyTorch</div>
+                        <div class="hoveranim">AWS / Azure / Google Cloud</div>
                       </div>
                     </li>
                   </ul>
@@ -217,7 +274,9 @@
                         <font-awesome-icon
                           icon="fa-solid fa-arrow-right-long"
                         />
-                        <div class="hoveranim">PostgreSQL / MongoDB</div>
+                        <div class="hoveranim">
+                          WordPress / Shopify / Webflow
+                        </div>
                       </div>
                     </li>
                     <li>
@@ -225,7 +284,9 @@
                         <font-awesome-icon
                           icon="fa-solid fa-arrow-right-long"
                         />
-                        <div class="hoveranim">GraphQL / REST APIs</div>
+                        <div class="hoveranim">
+                          Blender / Maya / Unreal Engine
+                        </div>
                       </div>
                     </li>
                     <li>
@@ -233,7 +294,9 @@
                         <font-awesome-icon
                           icon="fa-solid fa-arrow-right-long"
                         />
-                        <div class="hoveranim">Flutter / React Native</div>
+                        <div class="hoveranim">
+                          Google Analytics / SEMrush / Ahrefs
+                        </div>
                       </div>
                     </li>
                     <li>
@@ -241,23 +304,9 @@
                         <font-awesome-icon
                           icon="fa-solid fa-arrow-right-long"
                         />
-                        <div class="hoveranim">Figma / Adobe XD</div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="goToBtn">
-                        <font-awesome-icon
-                          icon="fa-solid fa-arrow-right-long"
-                        />
-                        <div class="hoveranim">Jest / Cypress</div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="goToBtn">
-                        <font-awesome-icon
-                          icon="fa-solid fa-arrow-right-long"
-                        />
-                        <div class="hoveranim">GitHub Actions / Jenkins</div>
+                        <div class="hoveranim">
+                          Docker / Kubernetes / Jenkins
+                        </div>
                       </div>
                     </li>
                   </ul>
@@ -269,57 +318,67 @@
       </div>
     </div>
 
-    <!-- NEW SECTION 1: DEVELOPMENT APPROACH -->
+    <!-- DEVELOPMENT APPROACH - With FontAwesome Icons -->
     <div class="approachSection">
       <div class="container">
         <div class="content">
           <div class="head text-center">
             <div class="homeheadsec">our delivery framework</div>
-            <div class="mainTitle">Engineering excellence, every step</div>
+            <div class="mainTitle">How we bring ideas to life</div>
           </div>
           <div class="approach-timeline">
             <div class="timeline-line"></div>
             <div class="row approach-grid">
               <div class="col-lg-3 col-md-6 col-12">
                 <div class="approach-card">
-                  <div class="approach-icon">📋</div>
+                  <div class="approach-icon">
+                    <font-awesome-icon icon="fa-solid fa-clipboard-list" />
+                  </div>
                   <h3>Discovery & Strategy</h3>
                   <p>
-                    We analyze your business, users, and competitors to define
-                    the perfect solution architecture and technology stack.
-                  </p>
-                  <div class="approach-tag">2-3 weeks</div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-12">
-                <div class="approach-card">
-                  <div class="approach-icon">🎯</div>
-                  <h3>Agile Sprints</h3>
-                  <p>
-                    Two-week sprints with continuous delivery, daily standups,
-                    and regular demos so you see progress in real-time.
-                  </p>
-                  <div class="approach-tag">2-6 weeks</div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-12">
-                <div class="approach-card">
-                  <div class="approach-icon">🧪</div>
-                  <h3>QA & Testing</h3>
-                  <p>
-                    Automated testing, security audits, and performance
-                    optimization before every release. Zero compromises.
+                    We dive deep into your business goals, user needs, and
+                    market landscape to define the perfect solution
+                    architecture.
                   </p>
                   <div class="approach-tag">1-2 weeks</div>
                 </div>
               </div>
               <div class="col-lg-3 col-md-6 col-12">
                 <div class="approach-card">
-                  <div class="approach-icon">🚀</div>
-                  <h3>Deployment & Beyond</h3>
+                  <div class="approach-icon">
+                    <font-awesome-icon icon="fa-solid fa-pencil-ruler" />
+                  </div>
+                  <h3>Design & Prototyping</h3>
                   <p>
-                    Seamless deployment, 24/7 monitoring, and ongoing support to
-                    ensure your success long after launch.
+                    Wireframes, interactive prototypes, and pixel-perfect
+                    designs that balance beauty with functionality and user
+                    experience.
+                  </p>
+                  <div class="approach-tag">2-3 weeks</div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="approach-card">
+                  <div class="approach-icon">
+                    <font-awesome-icon icon="fa-solid fa-code" />
+                  </div>
+                  <h3>Development & Testing</h3>
+                  <p>
+                    Agile sprints, clean code, continuous integration, and
+                    rigorous testing to build robust, scalable systems.
+                  </p>
+                  <div class="approach-tag">4-12 weeks</div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="approach-card">
+                  <div class="approach-icon">
+                    <font-awesome-icon icon="fa-solid fa-rocket" />
+                  </div>
+                  <h3>Launch & Optimize</h3>
+                  <p>
+                    Seamless deployment, performance monitoring, and ongoing
+                    optimization to ensure long-term success.
                   </p>
                   <div class="approach-tag">ongoing</div>
                 </div>
@@ -330,80 +389,11 @@
       </div>
     </div>
 
-    <!-- NEW SECTION 2: INDUSTRY VERTICALS -->
-    <div class="industriesSection">
-      <div class="container">
-        <div class="content">
-          <div class="row align-items-center">
-            <div class="col-lg-5">
-              <div class="head text-start">
-                <div class="homeheadsec">industries we serve</div>
-                <div class="mainTitle">Domain expertise across sectors</div>
-                <p class="industries-desc">
-                  We combine technical excellence with deep industry knowledge
-                  to deliver solutions that understand your unique challenges
-                  and opportunities.
-                </p>
-              </div>
-              <div class="industries-stats">
-                <div class="stat-row">
-                  <div class="stat-block">
-                    <div class="stat-value">12+</div>
-                    <div class="stat-label">Industries</div>
-                  </div>
-                  <div class="stat-block">
-                    <div class="stat-value">35+</div>
-                    <div class="stat-label">Domain Experts</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-7">
-              <div class="industries-grid">
-                <div class="industry-item">
-                  <div class="industry-icon">🏦</div>
-                  <span>FinTech & Banking</span>
-                </div>
-                <div class="industry-item">
-                  <div class="industry-icon">🏥</div>
-                  <span>Healthcare & MedTech</span>
-                </div>
-                <div class="industry-item">
-                  <div class="industry-icon">🛒</div>
-                  <span>E-Commerce & Retail</span>
-                </div>
-                <div class="industry-item">
-                  <div class="industry-icon">🎓</div>
-                  <span>EdTech & E-Learning</span>
-                </div>
-                <div class="industry-item">
-                  <div class="industry-icon">🚚</div>
-                  <span>Logistics & Supply Chain</span>
-                </div>
-                <div class="industry-item">
-                  <div class="industry-icon">🏨</div>
-                  <span>Travel & Hospitality</span>
-                </div>
-                <div class="industry-item">
-                  <div class="industry-icon">📊</div>
-                  <span>Real Estate & PropTech</span>
-                </div>
-                <div class="industry-item">
-                  <div class="industry-icon">🎮</div>
-                  <span>Media & Entertainment</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- CTA SECTION (from home page consistency) -->
+    <!-- CTA SECTION -->
     <base-meeting :btn="true">
       <template #default>
-        Ready to build your next <br />
-        software project?
+        Ready to start your <br />
+        next project?
       </template>
     </base-meeting>
   </div>
@@ -501,16 +491,6 @@ export default {
               color: white;
             }
           }
-          @media (max-width: 1199px) and (min-width: 991px) {
-            .info {
-              max-width: 345px !important;
-            }
-          }
-          @media (max-width: 767px) and (min-width: 575px) {
-            .info {
-              max-width: 400px !important;
-            }
-          }
           .info {
             max-width: 480px;
             margin-right: 30px;
@@ -543,19 +523,8 @@ export default {
         }
       }
     }
-    @media (max-width: 991px) {
-      .slider-container {
-        margin-bottom: 50px;
-      }
-    }
     .slider-container {
       padding: 0px 20px 20px 0;
-      @media (max-width: 991px) {
-        .imgs-container {
-          max-width: 100% !important;
-          width: 100%;
-        }
-      }
       .imgs-container {
         position: relative;
         height: 600px;
@@ -589,11 +558,66 @@ export default {
       }
     }
   }
-  @media (max-width: 991px) {
-    .relatedServices {
-      margin-top: 80px !important;
+
+  // CONSULTING SECTION
+  .consultingSection {
+    margin-top: 140px;
+    margin-bottom: 140px;
+
+    .consulting-badge {
+      display: inline-block;
+      padding: 5px 15px;
+      background-color: rgba(31, 81, 254, 0.15);
+      color: #1f51fe;
+      border-radius: 30px;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .mainTitle {
+      margin-bottom: 25px !important;
+    }
+
+    .consulting-desc {
+      color: #fefefeb3;
+      font-size: 18px;
+      line-height: 1.8;
+      margin-bottom: 30px;
+    }
+
+    .consulting-list {
+      list-style: none;
+      padding: 0;
+
+      li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+
+        svg {
+          font-size: 20px;
+          margin-right: 15px;
+        }
+
+        span {
+          color: #fefefe;
+          font-size: 17px;
+        }
+      }
+    }
+
+    .consulting-image {
+      border-radius: 15px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
   }
+
   .relatedServices {
     margin-top: 140px;
     .content {
@@ -632,11 +656,6 @@ export default {
           max-width: 100%;
         }
       }
-      @media (max-width: 991px) {
-        .info-container {
-          margin-top: 40px;
-        }
-      }
       .info-container {
         .mainTitle {
           margin-bottom: 50px !important;
@@ -645,11 +664,6 @@ export default {
           display: flex;
           flex-wrap: wrap;
           flex-direction: column;
-          @media (max-width: 991px) {
-            li {
-              margin-bottom: 10px !important;
-            }
-          }
           li {
             margin-bottom: 20px;
             width: fit-content;
@@ -664,7 +678,7 @@ export default {
     }
   }
 
-  // NEW STYLES - Approach Section
+  // DEVELOPMENT APPROACH SECTION - Updated with FontAwesome
   .approachSection {
     margin-top: 140px;
     position: relative;
@@ -675,7 +689,6 @@ export default {
 
     .approach-timeline {
       position: relative;
-
       .timeline-line {
         position: absolute;
         top: 100px;
@@ -707,7 +720,7 @@ export default {
       &:hover {
         transform: translateY(-10px);
         border-color: var(--prim-color);
-        box-shadow: 0 20px 40px rgba(255, 74, 23, 0.15);
+        box-shadow: 0 20px 40px rgba(31, 81, 254, 0.15);
 
         .approach-icon {
           background-color: var(--prim-color);
@@ -719,7 +732,7 @@ export default {
         width: 70px;
         height: 70px;
         border-radius: 50%;
-        background-color: rgba(255, 74, 23, 0.1);
+        background-color: rgba(31, 81, 254, 0.1);
         color: var(--prim-color);
         font-size: 32px;
         display: flex;
@@ -727,6 +740,11 @@ export default {
         justify-content: center;
         margin-bottom: 25px;
         transition: all 0.4s ease;
+
+        svg {
+          width: 32px;
+          height: 32px;
+        }
       }
 
       h3 {
@@ -746,87 +764,11 @@ export default {
       .approach-tag {
         display: inline-block;
         padding: 5px 15px;
-        background-color: rgba(255, 74, 23, 0.15);
+        background-color: rgba(31, 81, 254, 0.15);
         color: var(--prim-color);
         border-radius: 30px;
         font-size: 14px;
         font-weight: 500;
-      }
-    }
-  }
-
-  // NEW STYLES - Industries Section
-  .industriesSection {
-    margin-top: 140px;
-    margin-bottom: 140px;
-
-    .industries-desc {
-      color: #fefefeb3;
-      font-size: 18px;
-      line-height: 1.8;
-      margin: 30px 0;
-    }
-
-    .industries-stats {
-      .stat-row {
-        display: flex;
-        gap: 40px;
-
-        .stat-block {
-          .stat-value {
-            color: var(--prim-color);
-            font-size: 48px;
-            font-weight: 700;
-            line-height: 1.2;
-          }
-          .stat-label {
-            color: #fefefe;
-            font-size: 16px;
-            opacity: 0.8;
-          }
-        }
-      }
-    }
-
-    .industries-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 20px;
-
-      @media (max-width: 575px) {
-        grid-template-columns: 1fr;
-      }
-
-      .industry-item {
-        background: linear-gradient(267.18deg, #161616 0%, #080808 100%);
-        border-radius: 12px;
-        padding: 25px;
-        display: flex;
-        align-items: center;
-        gap: 15px;
-        transition: all 0.3s ease;
-        border: 1px solid rgba(255, 255, 255, 0.05);
-
-        &:hover {
-          transform: translateX(10px);
-          border-color: var(--prim-color);
-          box-shadow: 0 10px 30px rgba(255, 74, 23, 0.1);
-
-          .industry-icon {
-            transform: scale(1.1);
-          }
-        }
-
-        .industry-icon {
-          font-size: 32px;
-          transition: transform 0.3s ease;
-        }
-
-        span {
-          color: #fefefe;
-          font-size: 16px;
-          font-weight: 500;
-        }
       }
     }
   }

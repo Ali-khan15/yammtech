@@ -187,7 +187,7 @@ body.no-scroll {
   --vc-pgn-border-radius: 50% !important;
   --vc-pgn-active-color: #181818 !important;
   --vc-pgn-margin: 0 8px !important;
-  --vc-pgn-background-color: #ff4a17 !important;
+  --vc-pgn-background-color: #1f51fe !important;
 }
 .carousel__pagination-button {
   &:hover {
@@ -254,7 +254,7 @@ body.no-scroll {
 
 // noUiSlider-override-end
 :root {
-  --prim-color: #ff4a17;
+  --prim-color: #1f51fe;
 }
 .loading-screen {
   background-color: #181818;

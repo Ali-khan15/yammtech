@@ -8,8 +8,8 @@
           <div class="shape"></div>
           <div class="shape"></div>
           <h1 class="head">
-            Creativity In <br />
-            Our Blood Line
+            YammTech <br />
+            Engineering the Digital Future
           </h1>
           <div class="getaQuote">
             <div class="getaq-btn">
@@ -21,8 +21,9 @@
               </router-link>
             </div>
             <p>
-              We deliver best problem solving solution for our client and
-              provide finest finishing product in present and upcoming future.
+              YammTech takes your project from concept to deployment and beyond.
+              Requirement analysis, architecture design, development, QA,
+              maintenance—we handle it all under one roof.
             </p>
           </div>
           <div class="scrollDown"></div>
@@ -46,45 +47,42 @@
           />
           <div class="status">
             <div class="info">
-              <h1>Our fun fact</h1>
+              <h1>Trusted By Innovators</h1>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis.
+                Paragraph: 45+ happy clients including 3 Fortune 500 companies
+                and 12 funded startups. From Mumbai to Manhattan, businesses
+                trust YammTech to build their digital backbone.
               </p>
             </div>
             <div class="nums row gy-3">
               <div class="num col-md-6 col-12">
                 <div class="odo">
-                  <span data-numm="40" class="odometer">40</span>
-                  <span class="kword">K</span>
+                  <span data-numm="99" class="odometer">5</span>
+                  <span class="kword">+</span>
                 </div>
                 <div class="title">
-                  <font-awesome-icon icon="fa-solid fa-plus" />
                   <span>Global Happy Clients</span>
                 </div>
               </div>
               <div class="num col-md-6 col-12">
                 <div class="odo">
-                  <span data-numm="50" class="odometer">50</span>
-                  <span class="kword">K</span>
+                  <span data-numm="300" class="odometer">50</span>
+                  <span class="kword">+</span>
                 </div>
                 <div class="title">
-                  <font-awesome-icon icon="fa-solid fa-plus" />
                   <span>Project Completed</span>
                 </div>
               </div>
               <div class="num col-md-6 col-12">
-                <span data-numm="245" class="odometer">245</span>
+                <span data-numm="25" class="odometer">25</span>
+                <span class="kword">+</span>
                 <div class="title">
-                  <font-awesome-icon icon="fa-solid fa-plus" />
                   <span>Team Members</span>
                 </div>
               </div>
               <div class="num col-md-6 col-12">
-                <span data-numm="550" class="odometer">550</span>
+                <span data-numm="50" class="odometer">550</span>
                 <div class="title">
-                  <font-awesome-icon icon="fa-solid fa-plus" />
                   <span>Digital products</span>
                 </div>
               </div>
@@ -118,7 +116,7 @@
                     src="../../imgs/homeAssets/service_1.webp"
                     alt="UI/UX design"
                   />
-                  <span class="title">UI/UX design</span>
+                  <span class="title"> SEO & Digital marketing</span>
                 </div>
               </div>
               <div class="box col-lg-3 col-sm-6 col-12 d-none d-lg-block"></div>
@@ -129,7 +127,7 @@
                     src="../../imgs/homeAssets/service_2.webp"
                     alt="Vue.js Development"
                   />
-                  <span class="title">Vue.js Development</span>
+                  <span class="title">Website development</span>
                 </div>
               </div>
               <div class="box box-tilt col-lg-3 col-sm-6 col-12">
@@ -139,7 +137,7 @@
                     src="../../imgs/homeAssets/service_3.webp"
                     alt="Digital Marketing"
                   />
-                  <span class="title">Digital Marketing</span>
+                  <span class="title">Consulting</span>
                 </div>
               </div>
               <div class="box col-lg-3 col-sm-6 col-12 d-none d-lg-block"></div>
@@ -150,7 +148,7 @@
                     src="../../imgs/homeAssets/service_4.webp"
                     alt="Technology"
                   />
-                  <span class="title">Technology</span>
+                  <span class="title">App development</span>
                 </div>
               </div>
               <div class="box col-lg-3 col-sm-6 col-12 d-none d-lg-block"></div>
@@ -747,7 +745,7 @@ export default {
     }
   }
   .hero {
-    background-image: url("../../imgs/homeAssets/hero_bg.webp");
+    background-image: url("../../imgs/homeAssets/hero_bg.jpg");
     height: calc(100dvh + 180px);
     padding: 220px 0 170px;
     background-repeat: no-repeat;
@@ -1108,7 +1106,7 @@ export default {
             transition-duration: 0.5s;
             @media (min-width: 992px) {
               &:hover {
-                filter: drop-shadow(0px 0px 30px rgba(255, 74, 23, 0.5));
+                filter: drop-shadow(0px 0px 30px rgba(31, 81, 254, 0.5));
               }
             }
             &::before {

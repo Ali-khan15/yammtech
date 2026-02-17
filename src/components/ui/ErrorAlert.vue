@@ -42,7 +42,7 @@ export default {
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background: linear-gradient(135deg, #ff7657, #ff4a17);
+  background: linear-gradient(135deg, #ff7657, #1f51fe);
   padding: 15px 25px;
   border-radius: 30px;
   color: white;
@@ -81,7 +81,7 @@ export default {
 
   .close-button {
     background-color: #ffe1d7;
-    color: #ff4a17;
+    color: #1f51fe;
     padding: 8px 20px;
     border: none;
     border-radius: 20px;
@@ -91,7 +91,7 @@ export default {
 
     &:hover {
       background-color: white;
-      color: #ff4a17;
+      color: #1f51fe;
     }
   }
 }

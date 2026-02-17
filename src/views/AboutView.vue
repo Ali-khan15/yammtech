@@ -11,14 +11,15 @@
             <div class="info">
               <div class="homeheadsec">about our agency</div>
               <div class="mainTitle">
-                Your trusted partner <br />
-                for business
+                Digital excellence, <br />
+                delivered daily
               </div>
               <p class="mainP">
-                This is the main factor that sets us apart from our competition
-                allows us to deliver a specialist business consultancy service.
-                Our team applies its wide-ranging experience to determining.
-                experience, we’ve also learned that while each channel.
+                YammTech distinguishes itself through a rigorous consultative
+                approach that aligns technology with business strategy. We don't
+                simply execute tasks we partner with leadership to architect
+                solutions that drive operational efficiency, reduce technical
+                debt, and create sustainable long-term value for stakeholders.
               </p>
             </div>
           </div>
@@ -68,19 +69,24 @@
           </div>
           <div class="col-xl-5 col-lg-6 offset-xl-1 offset-0 col-12">
             <div class="homeheadsec">why choose us</div>
-            <div class="mainTitle">Highly experienced pepole with us</div>
+            <div class="mainTitle">Highly experienced people with us</div>
             <p>
-              This is the main factor that sets us apart from our competition
-              and allows us to deliver a specialist business consultancy
-              service. Our team applies its wide-ranging experience to
-              determining. Through our years of experience, we’ve also learned
-              that while each channel.
+              YammTech stands apart as a premier custom software development
+              company, delivering enterprise grade web and mobile applications
+              to clients across fintech, healthcare, and e-commerce sectors. Our
+              unique value proposition lies in combining technical architecture
+              expertise with strategic business consulting ensuring every
+              solution we build drives measurable ROI, operational efficiency,
+              and sustainable competitive advantage for our partners.
             </p>
             <p class="mainP">
-              This is the main factor that sets us apart from our competition
-              and allows us to deliver a specialist business consultancy
-              service. Our team applies its wide-ranging experience to
-              determining.
+              Our multidisciplinary team of senior developers, UI/UX designers,
+              and technology strategists brings decades of cumulative experience
+              to every engagement. We follow battle tested agile methodologies,
+              implement robust DevOps practices, and maintain rigorous quality
+              assurance standards resulting in scalable, secure, and high
+              performance software that transforms how businesses operate,
+              compete, and grow in today's digital economy.
             </p>
           </div>
         </div>
@@ -88,7 +94,7 @@
     </div>
     <base-meeting :btn="true">
       <template #default>
-        Let’s disscuse make <br />
+        Let’s discuss make <br />
         something cool together
       </template>
     </base-meeting>
