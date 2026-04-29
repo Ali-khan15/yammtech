@@ -11,15 +11,19 @@
             <div class="info">
               <div class="homeheadsec">about our agency</div>
               <div class="mainTitle">
-                Digital excellence, <br />
-                delivered daily
+                About YammTech – <br />
+                Your Partner in Digital Success
               </div>
               <p class="mainP">
-                YammTech distinguishes itself through a rigorous consultative
-                approach that aligns technology with business strategy. We don't
-                simply execute tasks we partner with leadership to architect
-                solutions that drive operational efficiency, reduce technical
-                debt, and create sustainable long-term value for stakeholders.
+                We're YammTech — a passionate software development and digital
+                marketing agency helping companies of all sizes win online.
+                Whether you need standout UI/UX design, a high-converting
+                website, a next-level mobile app, smarter SEO, fintech tools,
+                AI-powered videos, or lifelike 3D interior renderings, we've got
+                you covered. Every business is different, so we listen first —
+                then deliver tailored digital solutions that boost efficiency,
+                visibility, and revenue. Creativity + modern tech + real data =
+                results you can measure.
               </p>
             </div>
           </div>
@@ -68,25 +72,19 @@
             </div>
           </div>
           <div class="col-xl-5 col-lg-6 offset-xl-1 offset-0 col-12">
-            <div class="homeheadsec">why choose us</div>
-            <div class="mainTitle">Highly experienced people with us</div>
+            <div class="homeheadsec">Our Vision & Mission</div>
+            <div class="mainTitle">
+              Innovation, Dependability, and Business Growth
+            </div>
             <p>
-              YammTech stands apart as a premier custom software development
-              company, delivering enterprise grade web and mobile applications
-              to clients across fintech, healthcare, and e-commerce sectors. Our
-              unique value proposition lies in combining technical architecture
-              expertise with strategic business consulting ensuring every
-              solution we build drives measurable ROI, operational efficiency,
-              and sustainable competitive advantage for our partners.
+              <strong>Our Vision:</strong> To be the go-to global technology
+              partner known for innovation, dependability, and consistent
+              business growth.
             </p>
             <p class="mainP">
-              Our multidisciplinary team of senior developers, UI/UX designers,
-              and technology strategists brings decades of cumulative experience
-              to every engagement. We follow battle tested agile methodologies,
-              implement robust DevOps practices, and maintain rigorous quality
-              assurance standards resulting in scalable, secure, and high
-              performance software that transforms how businesses operate,
-              compete, and grow in today's digital economy.
+              <strong>Our Mission:</strong> Deliver secure, scalable,
+              high-performance digital products and strategies that help
+              companies compete — and win — in today's fast-moving world.
             </p>
           </div>
         </div>
@@ -94,7 +92,7 @@
     </div>
     <base-meeting :btn="true">
       <template #default>
-        Let’s discuss make <br />
+        Let's discuss make <br />
         something cool together
       </template>
     </base-meeting>

@@ -23,24 +23,23 @@
           />
         </svg>
       </div>
-      <p class="head">Do you have a project in your mind? Keep connect us.</p>
+      <p class="head">
+        Ready to get started? We're here to bring your ideas to life.
+      </p>
       <div class="contact">
         <h5>Contact Us</h5>
         <ul>
           <li>
             <font-awesome-icon icon="fa-solid fa-phone" />
-            +44 454 7800 112
+            +1 (437) 559-1485
           </li>
           <li>
             <font-awesome-icon icon="fa-solid fa-envelope" />
-            infotech@arino.com
+            info@yammtech.com
           </li>
           <li class="add">
             <font-awesome-icon icon="fa-solid fa-location-dot" />
-            <p>
-              50 Wall Street Suite, 44150 <br />
-              Ohio, United States
-            </p>
+            <p>Toronto, Canada</p>
           </li>
         </ul>
       </div>
@@ -51,8 +50,8 @@
           <button class="mainBtn" id="submitbtn">Send</button>
         </div>
         <p>
-          At vero eos et accusamus et iusto odio as part dignissimos ducimus
-          blandit.
+          Get the latest updates on tech trends, development tips, and exclusive
+          offers — straight to your inbox.
         </p>
       </div>
       <div class="socials">

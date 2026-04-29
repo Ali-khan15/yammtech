@@ -11,28 +11,54 @@
             <div class="head">
               <div class="homeheadsec">Getting Touch</div>
               <div class="mainTitle">
-                Do you have a project <br />
-                in your mind?
+                Ready to Start? <br />
+                Let's Talk About Your Project
               </div>
             </div>
             <div class="info">
               <ul>
                 <li>
                   <font-awesome-icon icon="fa-solid fa-phone" />
-                  +44 454 7800 112
+                  +1 (437) 559-1485
                 </li>
                 <li>
                   <font-awesome-icon icon="fa-solid fa-envelope" />
-                  infotech@arino.com
+                  info@yammtech.com
                 </li>
                 <li class="add">
                   <font-awesome-icon icon="fa-solid fa-location-dot" />
-                  <p>
-                    50 Wall Street Suite, 44150 <br />
-                    Ohio, United States
-                  </p>
+                  <p>Toronto, Canada</p>
                 </li>
               </ul>
+              <div class="contact-note" style="margin-top: 30px">
+                <p style="color: #fefefeb3; font-size: 16px; line-height: 1.6">
+                  Whether you're looking for a reliable software development
+                  company, UI/UX design agency, mobile app development services,
+                  expert SEO, or something else entirely we're excited to hear
+                  your vision.
+                </p>
+                <p
+                  style="
+                    color: #fefefeb3;
+                    font-size: 16px;
+                    line-height: 1.6;
+                    margin-top: 15px;
+                  "
+                >
+                  Drop us a message for a no-pressure, free consultation. We
+                  usually reply within 1 hour.
+                </p>
+                <p
+                  style="
+                    color: var(--prim-color);
+                    font-size: 16px;
+                    margin-top: 20px;
+                    font-weight: 500;
+                  "
+                >
+                  Looking forward to building something amazing together!
+                </p>
+              </div>
             </div>
           </div>
           <div class="col-lg-6">

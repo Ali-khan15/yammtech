@@ -1,6 +1,6 @@
 <template>
   <div class="homePage">
-    <!-- HERO SECTION - Keep -->
+    <!-- HERO SECTION - ONLY CONTENT UPDATED -->
     <div class="hero">
       <div class="container">
         <div class="content">
@@ -8,22 +8,26 @@
           <div class="shape"></div>
           <div class="shape"></div>
           <h1 class="head">
-            YammTech <br />
-            Engineering the Digital Future
+            Your Trusted Software Development Company for Smart, Scalable
+            Digital Solutions
           </h1>
           <div class="getaQuote">
             <div class="getaq-btn">
               <router-link to="/contact">
                 <div class="cont goToBtn">
-                  <span class="hoveranim">Get a Quote</span>
+                  <span class="hoveranim"
+                    >Book Your Free Consultation Today</span
+                  >
                   <font-awesome-icon icon="fa-solid fa-arrow-right-long" />
                 </div>
               </router-link>
             </div>
             <p>
-              YammTech takes your project from concept to deployment and beyond.
-              Requirement analysis, architecture design, development, QA,
-              maintenance—we handle it all under one roof.
+              At YammTech, we're a full-service digital agency specializing in
+              beautiful UI/UX design, fast website development, powerful mobile
+              apps, result-driven SEO, digital marketing, fintech software, AI
+              video creation, and stunning interior 3D renderings — all designed
+              to help your business grow.
             </p>
           </div>
           <div class="scrollDown"></div>
@@ -37,7 +41,7 @@
       </div>
     </div>
 
-    <!-- NUMBERS SECTION - Keep (rename later) -->
+    <!-- ABOUT SECTION - UPDATED CONTENT -->
     <div class="ourFunFact">
       <div class="container">
         <div class="statusBorder">
@@ -47,11 +51,17 @@
           />
           <div class="status">
             <div class="info">
-              <h1>Trusted By Innovators</h1>
+              <h1>Grow Smarter with a Partner You Can Trust</h1>
               <p>
-                Paragraph: 45+ happy clients including 3 Fortune 500 companies
-                and 12 funded startups. From Mumbai to Manhattan, businesses
-                trust YammTech to build their digital backbone.
+                YammTech is more than just another software development company.
+                We partner with startups, growing businesses, and established
+                brands to turn ideas into high-performing digital products that
+                actually deliver results. Our team blends creative UI/UX design,
+                clean code, strategic SEO & marketing, and innovative tech (like
+                AI tools and fintech systems) so you get solutions built for
+                real users — and real business growth. We care about
+                performance, clean user experiences, and long-term success — not
+                just shipping a project and moving on.
               </p>
             </div>
             <div class="nums row gy-3">
@@ -92,13 +102,13 @@
       </div>
     </div>
 
-    <!-- SERVICES SECTION - Keep -->
+    <!-- CORE SERVICES SECTION - ROW 1 -->
     <div class="services" id="#services">
       <div class="container">
         <div class="content">
           <div class="row">
             <div class="col-xl-4 col-12 info">
-              <span class="homeheadsec">What Can We Do</span>
+              <span class="homeheadsec">Our Core Services</span>
               <p class="mainTitle">Services we can help you with</p>
               <router-link aria-label="services" to="/services">
                 <div class="servicesbtn goToBtn">
@@ -116,7 +126,7 @@
                     src="../../imgs/homeAssets/service_1.webp"
                     alt="UI/UX design"
                   />
-                  <span class="title"> SEO & Digital marketing</span>
+                  <span class="title">UI/UX Design Agency</span>
                 </div>
               </div>
               <div class="box col-lg-3 col-sm-6 col-12 d-none d-lg-block"></div>
@@ -125,9 +135,9 @@
                   <img
                     loading="lazy"
                     src="../../imgs/homeAssets/service_2.webp"
-                    alt="Vue.js Development"
+                    alt="Website Development"
                   />
-                  <span class="title">Website development</span>
+                  <span class="title">Website Development Company</span>
                 </div>
               </div>
               <div class="box box-tilt col-lg-3 col-sm-6 col-12">
@@ -135,9 +145,9 @@
                   <img
                     loading="lazy"
                     src="../../imgs/homeAssets/service_3.webp"
-                    alt="Digital Marketing"
+                    alt="Mobile App Development"
                   />
-                  <span class="title">Consulting</span>
+                  <span class="title">Mobile App Development Services</span>
                 </div>
               </div>
               <div class="box col-lg-3 col-sm-6 col-12 d-none d-lg-block"></div>
@@ -146,12 +156,69 @@
                   <img
                     loading="lazy"
                     src="../../imgs/homeAssets/service_4.webp"
-                    alt="Technology"
+                    alt="SEO Services"
                   />
-                  <span class="title">App development</span>
+                  <span class="title">Professional SEO Services</span>
                 </div>
               </div>
               <div class="box col-lg-3 col-sm-6 col-12 d-none d-lg-block"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CORE SERVICES SECTION - ROW 2 (Digital Marketing, Fintech, AI Video, 3D Rendering) -->
+    <div class="services" style="margin-top: -80px">
+      <div class="container">
+        <div class="content">
+          <div class="row">
+            <div class="col-xl-4 col-12 info">
+              <!-- Empty for alignment -->
+            </div>
+            <div class="col-xl-8 col-12 row projects">
+              <div class="box box-tilt col-lg-3 col-sm-6 col-12">
+                <div class="box-container">
+                  <img
+                    loading="lazy"
+                    src="../../imgs/homeAssets/service_1.webp"
+                    alt="Digital Marketing"
+                  />
+                  <span class="title">Digital Marketing Agency</span>
+                </div>
+              </div>
+              <div class="box col-lg-3 col-sm-6 col-12 d-none d-lg-block"></div>
+              <div class="box box-tilt col-lg-3 col-sm-6 col-12">
+                <div class="box-container">
+                  <img
+                    loading="lazy"
+                    src="../../imgs/homeAssets/service_2.webp"
+                    alt="Fintech Development"
+                  />
+                  <span class="title">Fintech Software Development</span>
+                </div>
+              </div>
+              <div class="box box-tilt col-lg-3 col-sm-6 col-12">
+                <div class="box-container">
+                  <img
+                    loading="lazy"
+                    src="../../imgs/homeAssets/service_3.webp"
+                    alt="AI Video Creation"
+                  />
+                  <span class="title">AI Video Creation Services</span>
+                </div>
+              </div>
+              <div class="box col-lg-3 col-sm-6 col-12 d-none d-lg-block"></div>
+              <div class="box box-tilt col-lg-3 col-sm-6 col-12">
+                <div class="box-container">
+                  <img
+                    loading="lazy"
+                    src="../../imgs/homeAssets/service_4.webp"
+                    alt="3D Rendering"
+                  />
+                  <span class="title">Interior Design & 3D Rendering</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -276,6 +343,35 @@
             </div>
           </transition>
           <loading-spinner v-show="!teamDataLoaded"></loading-spinner>
+        </div>
+      </div>
+    </div>
+
+    <!-- WHY CHOOSE YAMMTECH SECTION -->
+    <div class="ourFunFact" style="margin-bottom: 0">
+      <div class="container">
+        <div class="statusBorder">
+          <img
+            src="../../imgs/homeAssets/funfact_shape_bg.svg"
+            alt="why choose us"
+          />
+          <div class="status">
+            <div class="info" style="width: 100%">
+              <h1>Why Choose YammTech?</h1>
+              <p>
+                Seasoned developers, designers, SEO specialists, and marketers
+                under one roof<br />
+                Fully custom solutions tailored to your industry and goals<br />
+                On-time delivery with clear communication<br />
+                Ongoing support so your product keeps improving<br />
+                Focus on ROI — we build for growth, not just looks
+              </p>
+              <p style="margin-top: 30px; font-style: italic">
+                We don't just create apps or websites — we build digital systems
+                that help your business thrive.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -461,7 +557,7 @@
     <!-- CTA SECTION - Keep -->
     <base-meeting :btn="true">
       <template #default>
-        Let’s disscuse make <br />
+        Let's discuss make <br />
         something cool together
       </template>
     </base-meeting>
@@ -708,8 +804,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-/* ALL CSS REMAINS EXACTLY THE SAME - COPY FROM ORIGINAL FILE */
-/* CSS ko change nahi kiya, same rakha hai */
+/* ALL CSS REMAINS EXACTLY THE SAME - NOTHING CHANGED */
 .homePage {
   position: relative;
   @media (max-width: 1540px) {
@@ -777,7 +872,7 @@ export default {
         }
       }
       h1 {
-        font-size: 120px;
+        font-size: 60px;
         font-weight: 700;
         margin-bottom: 60px;
         position: relative;
@@ -1123,6 +1218,8 @@ export default {
               top: 50%;
               left: 50%;
               transform: translate(-50%, -50%);
+              text-align: center;
+              width: 90%;
             }
             img {
               width: 100%;

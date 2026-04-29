@@ -7,7 +7,7 @@
           <div class="col-lg-3 col-md-6 col-12">
             <div class="logo">
               <img
-                src="../../../imgs/homeAssets/footer_logo.svg"
+                src="../../../imgs/homeAssets/yamtech logo DONE.png"
                 alt="YammTech Logo"
               />
             </div>
@@ -47,15 +47,15 @@
             <ul class="contact-info">
               <li>
                 <font-awesome-icon icon="fa-solid fa-location-dot" />
-                <span>123 Business Avenue, Tech Park, City - 400001</span>
+                <span>Toronto, Canada</span>
               </li>
               <li>
                 <font-awesome-icon icon="fa-solid fa-phone" />
-                <span>+91 98765 43210</span>
+                <span>+1 (437) 559-1485</span>
               </li>
               <li>
                 <font-awesome-icon icon="fa-solid fa-envelope" />
-                <span>hello@yammtech.com</span>
+                <span>info@yammtech.com</span>
               </li>
             </ul>
           </div>
@@ -81,7 +81,7 @@
 
       <!-- Footer Bottom -->
       <div class="footer-bottom">
-        <div class="copyright">© 2024 YammTech. All rights reserved.</div>
+        <div class="copyright">© 2025 YammTech. All rights reserved.</div>
         <div class="terms-privacy">
           <span>Terms of Use</span>
           <span>Privacy Policy</span>
@@ -130,6 +130,7 @@ footer {
         img {
           height: 40px;
           width: auto;
+          object-fit: contain;
         }
       }
 

@@ -5,7 +5,7 @@
         <div class="logo">
           <router-link aria-label="homePage" to="/">
             <img
-              src="../../../imgs/homeAssets/footer_logo.svg"
+              src="../../../imgs/homeAssets/yamtech logo DONE.png"
               alt="YammTech Logo"
             />
           </router-link>
@@ -25,14 +25,14 @@
                 >what we do</router-link
               >
             </li>
-            <li class="liLinks">
+            <!-- <li class="liLinks">
               <router-link class="aLinks" to="/portfolio">our work</router-link>
             </li>
             <li class="liLinks">
               <router-link class="aLinks" to="/blog?page=1"
                 >insights</router-link
               >
-            </li>
+            </li> -->
             <li class="liLinks">
               <router-link class="aLinks" to="/contact">let's talk</router-link>
             </li>
@@ -201,6 +201,7 @@ header {
       img {
         height: 40px;
         width: auto;
+        object-fit: contain;
       }
     }
 

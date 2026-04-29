@@ -5,7 +5,7 @@
       <template #nav>what we do</template>
     </base-hero>
 
-    <!-- CORE SERVICES - Updated with YammTech services -->
+    <!-- CORE SERVICES - Updated with all 8 YammTech services -->
     <div class="coreServices topPaddingO">
       <div class="container">
         <div class="content">
@@ -22,35 +22,63 @@
                     data-imgNum="1"
                     class="activeClip"
                     src="../../imgs/servicesAssets/service_7.webp"
-                    alt="website development"
+                    alt="UI/UX design"
                   />
                   <img
                     loading="lazy"
                     data-imgNum="2"
                     class=""
                     src="../../imgs/servicesAssets/service_8.webp"
-                    alt="mobile development"
+                    alt="website development"
                   />
                   <img
                     loading="lazy"
                     data-imgNum="3"
                     class=""
                     src="../../imgs/servicesAssets/service_9.webp"
-                    alt="digital marketing"
+                    alt="mobile app development"
                   />
                   <img
                     loading="lazy"
                     data-imgNum="4"
                     class=""
                     src="../../imgs/servicesAssets/service_10.webp"
-                    alt="3d rendering"
+                    alt="SEO services"
+                  />
+                  <img
+                    loading="lazy"
+                    data-imgNum="5"
+                    class=""
+                    src="../../imgs/servicesAssets/service_7.webp"
+                    alt="digital marketing"
+                  />
+                  <img
+                    loading="lazy"
+                    data-imgNum="6"
+                    class=""
+                    src="../../imgs/servicesAssets/service_8.webp"
+                    alt="fintech solutions"
+                  />
+                  <img
+                    loading="lazy"
+                    data-imgNum="7"
+                    class=""
+                    src="../../imgs/servicesAssets/service_9.webp"
+                    alt="AI video creation"
+                  />
+                  <img
+                    loading="lazy"
+                    data-imgNum="8"
+                    class=""
+                    src="../../imgs/servicesAssets/service_10.webp"
+                    alt="3D rendering"
                   />
                 </div>
               </div>
             </div>
             <div class="col-xl-7 col-lg-6 col-12">
               <ul>
-                <!-- Service 1: Website Development -->
+                <!-- Service 1: UI/UX Design Services -->
                 <li>
                   <div
                     data-imgNum="1"
@@ -58,13 +86,15 @@
                     :class="['linkcont', { active: activeService === '1' }]"
                   >
                     <div class="info">
-                      <div class="servname">Website Development</div>
+                      <div class="servname">UI/UX Design Services</div>
                       <p>
-                        Custom, high-performance websites and web applications
-                        built with modern frameworks like React, Vue, and
-                        Node.js. From corporate sites to complex enterprise
-                        portals, we deliver scalable, secure, and SEO-optimized
-                        solutions.
+                        As a top UI/UX design agency, we focus on creating
+                        digital experiences people actually enjoy using. Better
+                        UX = happier users = more conversions and loyalty.
+                        Includes: user interviews & competitor research,
+                        wireframing & clickable prototypes, app + website
+                        interface design, usability testing & optimization,
+                        design systems for consistency.
                       </p>
                     </div>
                     <div class="arrowIcon">
@@ -75,7 +105,7 @@
                   </div>
                 </li>
 
-                <!-- Service 2: Mobile Applications -->
+                <!-- Service 2: Website Development Company -->
                 <li>
                   <div
                     data-imgNum="2"
@@ -83,12 +113,14 @@
                     :class="['linkcont', { active: activeService === '2' }]"
                   >
                     <div class="info">
-                      <div class="servname">Mobile Applications</div>
+                      <div class="servname">Website Development Company</div>
                       <p>
-                        Native and cross-platform mobile apps for iOS and
-                        Android. We build feature-rich, intuitive applications
-                        using Flutter, React Native, and native technologies
-                        that users love to engage with.
+                        We build websites that look great and perform even
+                        better — fast, mobile-friendly, secure, and built to
+                        rank. Includes: corporate & business sites, full
+                        e-commerce stores, custom web applications,
+                        WordPress/CMS builds, high-converting landing pages,
+                        ongoing maintenance & speed upgrades.
                       </p>
                     </div>
                     <div class="arrowIcon">
@@ -99,7 +131,7 @@
                   </div>
                 </li>
 
-                <!-- Service 3: SEO & Digital Marketing -->
+                <!-- Service 3: Mobile App Development Services -->
                 <li>
                   <div
                     data-imgNum="3"
@@ -107,12 +139,15 @@
                     :class="['linkcont', { active: activeService === '3' }]"
                   >
                     <div class="info">
-                      <div class="servname">SEO & Digital Marketing</div>
+                      <div class="servname">
+                        Mobile App Development Services
+                      </div>
                       <p>
-                        Data-driven SEO strategies and digital marketing
-                        campaigns that increase visibility, drive qualified
-                        traffic, and maximize conversions. From keyword research
-                        to content strategy and analytics.
+                        Turn your idea into an app users love — whether native
+                        iOS/Android or cost-effective cross-platform. Includes:
+                        Android & iOS apps, Flutter/React Native development,
+                        enterprise & business tools, fintech mobile solutions,
+                        strong backend + API integration.
                       </p>
                     </div>
                     <div class="arrowIcon">
@@ -123,7 +158,7 @@
                   </div>
                 </li>
 
-                <!-- Service 4: 3D Rendering -->
+                <!-- Service 4: SEO Services Company -->
                 <li>
                   <div
                     data-imgNum="4"
@@ -131,12 +166,118 @@
                     :class="['linkcont', { active: activeService === '4' }]"
                   >
                     <div class="info">
-                      <div class="servname">3D Rendering</div>
+                      <div class="servname">SEO Services Company</div>
                       <p>
-                        Photorealistic 3D rendering, architectural
-                        visualization, and interactive 3D experiences. We bring
-                        concepts to life with stunning visuals for real estate,
-                        product design, and immersive web experiences.
+                        Stop guessing — start ranking. We use proven SEO tactics
+                        to improve your Google positions and bring in steady
+                        organic traffic. Includes: in-depth keyword research &
+                        strategy, on-page & technical SEO, content optimization,
+                        quality link building, local SEO for service businesses,
+                        monthly reporting & audits.
+                      </p>
+                    </div>
+                    <div class="arrowIcon">
+                      <font-awesome-icon
+                        icon="fa-solid fa-arrow-up-right-from-square"
+                      />
+                    </div>
+                  </div>
+                </li>
+
+                <!-- Service 5: Digital Marketing Agency -->
+                <li>
+                  <div
+                    data-imgNum="5"
+                    @mouseenter="hoverCoreServ($event, '5')"
+                    :class="['linkcont', { active: activeService === '5' }]"
+                  >
+                    <div class="info">
+                      <div class="servname">Digital Marketing Agency</div>
+                      <p>
+                        Grow your brand and revenue with smart, measurable
+                        marketing. Includes: social media strategy & management,
+                        Google Ads + Facebook/Instagram ads, content marketing
+                        that builds trust, brand storytelling & positioning,
+                        automated lead funnels.
+                      </p>
+                    </div>
+                    <div class="arrowIcon">
+                      <font-awesome-icon
+                        icon="fa-solid fa-arrow-up-right-from-square"
+                      />
+                    </div>
+                  </div>
+                </li>
+
+                <!-- Service 6: Fintech & Financial Software Solutions -->
+                <li>
+                  <div
+                    data-imgNum="6"
+                    @mouseenter="hoverCoreServ($event, '6')"
+                    :class="['linkcont', { active: activeService === '6' }]"
+                  >
+                    <div class="info">
+                      <div class="servname">
+                        Fintech & Financial Software Solutions
+                      </div>
+                      <p>
+                        Secure, compliant software built for finance and fintech
+                        innovators. Includes: custom payment systems, financial
+                        analytics dashboards, CRM for financial services,
+                        regulatory-compliant apps, robust data security &
+                        encryption.
+                      </p>
+                    </div>
+                    <div class="arrowIcon">
+                      <font-awesome-icon
+                        icon="fa-solid fa-arrow-up-right-from-square"
+                      />
+                    </div>
+                  </div>
+                </li>
+
+                <!-- Service 7: AI Video Creation Services -->
+                <li>
+                  <div
+                    data-imgNum="7"
+                    @mouseenter="hoverCoreServ($event, '7')"
+                    :class="['linkcont', { active: activeService === '7' }]"
+                  >
+                    <div class="info">
+                      <div class="servname">AI Video Creation Services</div>
+                      <p>
+                        Produce professional-grade videos in a fraction of the
+                        time — perfect for marketing, social, and product
+                        launches. Includes: AI-generated promo videos, product
+                        explainers, automated voiceover clips, short-form social
+                        content, fast revisions & cost savings.
+                      </p>
+                    </div>
+                    <div class="arrowIcon">
+                      <font-awesome-icon
+                        icon="fa-solid fa-arrow-up-right-from-square"
+                      />
+                    </div>
+                  </div>
+                </li>
+
+                <!-- Service 8: Interior Design & 3D Rendering Services -->
+                <li>
+                  <div
+                    data-imgNum="8"
+                    @mouseenter="hoverCoreServ($event, '8')"
+                    :class="['linkcont', { active: activeService === '8' }]"
+                  >
+                    <div class="info">
+                      <div class="servname">
+                        Interior Design & 3D Rendering Services
+                      </div>
+                      <p>
+                        See your space before it exists — with photorealistic
+                        detail. Includes: residential & commercial 3D
+                        renderings, virtual walkthrough animations, mood boards
+                        & material visualization, architect & developer
+                        presentations.
                       </p>
                     </div>
                     <div class="arrowIcon">
@@ -153,7 +294,7 @@
       </div>
     </div>
 
-    <!-- CONSULTING SECTION (5th service - Special highlight) -->
+    <!-- CONSULTING SECTION - Keep as is -->
     <div class="consultingSection">
       <div class="container">
         <div class="content">
@@ -236,24 +377,8 @@
                         <font-awesome-icon
                           icon="fa-solid fa-arrow-right-long"
                         />
-                        <div class="hoveranim">React / Next.js / Vue</div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="goToBtn">
-                        <font-awesome-icon
-                          icon="fa-solid fa-arrow-right-long"
-                        />
-                        <div class="hoveranim">Node.js / Python / PHP</div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="goToBtn">
-                        <font-awesome-icon
-                          icon="fa-solid fa-arrow-right-long"
-                        />
                         <div class="hoveranim">
-                          Flutter / React Native / Kotlin
+                          React / Next.js / Vue / Angular
                         </div>
                       </div>
                     </li>
@@ -262,7 +387,29 @@
                         <font-awesome-icon
                           icon="fa-solid fa-arrow-right-long"
                         />
-                        <div class="hoveranim">AWS / Azure / Google Cloud</div>
+                        <div class="hoveranim">
+                          Node.js / Python / Django / Laravel
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="goToBtn">
+                        <font-awesome-icon
+                          icon="fa-solid fa-arrow-right-long"
+                        />
+                        <div class="hoveranim">
+                          Flutter / React Native / Swift / Kotlin
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="goToBtn">
+                        <font-awesome-icon
+                          icon="fa-solid fa-arrow-right-long"
+                        />
+                        <div class="hoveranim">
+                          AWS / Azure / Google Cloud / Firebase
+                        </div>
                       </div>
                     </li>
                   </ul>
@@ -275,7 +422,7 @@
                           icon="fa-solid fa-arrow-right-long"
                         />
                         <div class="hoveranim">
-                          WordPress / Shopify / Webflow
+                          WordPress / Shopify / Webflow / WooCommerce
                         </div>
                       </div>
                     </li>
@@ -285,7 +432,7 @@
                           icon="fa-solid fa-arrow-right-long"
                         />
                         <div class="hoveranim">
-                          Blender / Maya / Unreal Engine
+                          Blender / Maya / Unreal Engine / 3ds Max
                         </div>
                       </div>
                     </li>
@@ -295,7 +442,7 @@
                           icon="fa-solid fa-arrow-right-long"
                         />
                         <div class="hoveranim">
-                          Google Analytics / SEMrush / Ahrefs
+                          Google Analytics / SEMrush / Ahrefs / Moz
                         </div>
                       </div>
                     </li>
@@ -305,7 +452,7 @@
                           icon="fa-solid fa-arrow-right-long"
                         />
                         <div class="hoveranim">
-                          Docker / Kubernetes / Jenkins
+                          Docker / Kubernetes / Jenkins / GitLab CI
                         </div>
                       </div>
                     </li>
