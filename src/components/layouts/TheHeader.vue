@@ -80,14 +80,14 @@
                 >what we do</router-link
               >
             </li>
-            <li>
+            <!-- <li>
               <router-link class="aLinks" to="/portfolio">our work</router-link>
             </li>
             <li>
               <router-link class="aLinks" to="/blog?page=1"
                 >insights</router-link
               >
-            </li>
+            </li> -->
             <li>
               <router-link class="aLinks" to="/contact">let's talk</router-link>
             </li>
