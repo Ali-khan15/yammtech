@@ -225,124 +225,138 @@
       </div>
     </div>
 
-    <!-- PORTFOLIO SECTION - Keep -->
-    <div class="portfolio">
-      <div class="content">
-        <div class="head">
-          <div class="homeheadsec">Latest Projects</div>
-          <h1>Portfolio to explore</h1>
+    <!-- HOW WE WORK SECTION -->
+    <div class="howWeWork">
+      <div class="container">
+        <div class="section-head text-center">
+          <span class="homeheadsec">Our Process</span>
+          <p class="mainTitle">How We Work</p>
         </div>
-        <transition name="dataFadein">
-          <div
-            v-show="PortfolioDataLoaded"
-            class="swiper-container"
-            ref="portSwiper"
-          >
-            <div class="swiper-wrapper">
-              <div
-                class="swiper-slide"
-                v-for="(post, index) in getProjectsData"
-                :key="index"
-              >
-                <div class="slide">
-                  <div class="img">
-                    <router-link
-                      aria-label="portfolio"
-                      :to="'/portfolioDetails/' + post.id"
-                    >
-                      <img :src="post.imgUrl" alt="Colorful Art Work" />
-                      <div class="artWork">
-                        <span>Colorful Art Work</span>
-                        <span>See Details</span>
-                      </div>
-                    </router-link>
-                  </div>
-                </div>
-              </div>
+        <div class="row steps">
+          <div class="col-lg-3 col-sm-6 col-12">
+            <div class="step">
+              <div class="step-num">01</div>
+              <h4>Discovery</h4>
+              <p>
+                We start by deeply understanding your business goals, target
+                audience, and technical requirements to build a clear roadmap.
+              </p>
             </div>
-            <div class="swiper-pagination"></div>
           </div>
-        </transition>
-        <loading-spinner v-show="!PortfolioDataLoaded"></loading-spinner>
+          <div class="col-lg-3 col-sm-6 col-12">
+            <div class="step">
+              <div class="step-num">02</div>
+              <h4>Design</h4>
+              <p>
+                Our UI/UX team crafts intuitive, pixel-perfect designs that
+                reflect your brand and create seamless user experiences.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-12">
+            <div class="step">
+              <div class="step-num">03</div>
+              <h4>Development</h4>
+              <p>
+                We build your product with clean, scalable code using modern
+                frameworks — tested rigorously at every stage.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-12">
+            <div class="step">
+              <div class="step-num">04</div>
+              <h4>Launch & Support</h4>
+              <p>
+                We deploy your product, monitor performance, and provide ongoing
+                support to keep everything running at its best.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <!-- TEAM SECTION - Keep -->
-    <div class="ourTeam">
+    <!-- TECHNOLOGIES SECTION -->
+    <div class="techStack">
       <div class="container">
-        <div class="content">
-          <div class="controls">
-            <div class="head">
-              <div class="homeheadsec slidOurTeam">Our Team</div>
-              <div class="mainTitle">
-                Awesome team <br class="d-block d-xl-none" />
-                members
-              </div>
-            </div>
-            <div class="myCustomNav d-block d-xl-none">
-              <button
-                aria-label="prevbtn"
-                class="prevbtn"
-                @click="prevSwiper('teamSwiper')"
-              >
-                <font-awesome-icon icon="fa-solid fa-arrow-left-long" />
-              </button>
-              <button
-                aria-label="nextbtn"
-                class="nextbtn"
-                @click="nextSwiper('teamSwiper')"
-              >
-                <font-awesome-icon icon="fa-solid fa-arrow-right-long" />
-              </button>
+        <div class="section-head text-center">
+          <span class="homeheadsec">What We Build With</span>
+          <p class="mainTitle">Technologies We Use</p>
+        </div>
+        <div class="row tech-grid">
+          <div class="col-lg-2 col-md-3 col-4">
+            <div class="tech-card">
+              <font-awesome-icon icon="fa-brands fa-react" />
+              <span>React</span>
             </div>
           </div>
-          <transition name="dataFadein">
-            <div
-              v-show="teamDataLoaded"
-              class="swiper-container"
-              ref="teamSwiper"
-            >
-              <div class="swiper-wrapper">
-                <div
-                  class="swiper-slide"
-                  v-for="(member, index) in getTeamMembersData"
-                  :key="index"
-                >
-                  <div class="memberCard">
-                    <router-link
-                      aria-label="teamMember"
-                      :to="'/teamDetails/' + member.id"
-                    >
-                      <div class="img-container">
-                        <img
-                          :src="member.imgUrl"
-                          alt="team member"
-                          loading="lazy"
-                        />
-                      </div>
-                      <div class="title">
-                        <div class="name">{{ member.name }}</div>
-                        <div class="rule">{{ member.job }}</div>
-                      </div>
-                      <div class="socials">
-                        <div class="social">
-                          <font-awesome-icon icon="fa-brands fa-linkedin-in" />
-                        </div>
-                        <div class="social">
-                          <font-awesome-icon icon="fa-brands fa-x-twitter" />
-                        </div>
-                        <div class="social">
-                          <font-awesome-icon icon="fa-brands fa-github" />
-                        </div>
-                      </div>
-                    </router-link>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-pagination"></div>
+          <div class="col-lg-2 col-md-3 col-4">
+            <div class="tech-card">
+              <font-awesome-icon icon="fa-brands fa-vuejs" />
+              <span>Vue.js</span>
             </div>
-          </transition>
-          <loading-spinner v-show="!teamDataLoaded"></loading-spinner>
+          </div>
+          <div class="col-lg-2 col-md-3 col-4">
+            <div class="tech-card">
+              <font-awesome-icon icon="fa-brands fa-node-js" />
+              <span>Node.js</span>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-4">
+            <div class="tech-card">
+              <font-awesome-icon icon="fa-brands fa-python" />
+              <span>Python</span>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-4">
+            <div class="tech-card">
+              <font-awesome-icon icon="fa-brands fa-aws" />
+              <span>AWS</span>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-4">
+            <div class="tech-card">
+              <font-awesome-icon icon="fa-brands fa-bootstrap" />
+              <span>Bootstrap</span>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-4">
+            <div class="tech-card">
+              <font-awesome-icon icon="fa-brands fa-docker" />
+              <span>Docker</span>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-4">
+            <div class="tech-card">
+              <font-awesome-icon icon="fa-brands fa-android" />
+              <span>Android</span>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-4">
+            <div class="tech-card">
+              <font-awesome-icon icon="fa-brands fa-apple" />
+              <span>iOS</span>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-4">
+            <div class="tech-card">
+              <font-awesome-icon icon="fa-brands fa-figma" />
+              <span>Figma</span>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-4">
+            <div class="tech-card">
+              <font-awesome-icon icon="fa-brands fa-github" />
+              <span>GitHub</span>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-4">
+            <div class="tech-card">
+              <font-awesome-icon icon="fa-brands fa-js" />
+              <span>TypeScript</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -840,15 +854,36 @@ export default {
     }
   }
   .hero {
-    background-image: url("../../imgs/homeAssets/hero_bg.jpg");
+    background: radial-gradient(
+        ellipse 80% 70% at 15% 60%,
+        rgba(59, 130, 246, 0.35) 0%,
+        transparent 60%
+      ),
+      radial-gradient(
+        ellipse 55% 50% at 80% 15%,
+        rgba(99, 102, 241, 0.2) 0%,
+        transparent 55%
+      ),
+      linear-gradient(
+        145deg,
+        #0a1628 0%,
+        #0f2460 30%,
+        #1d4ed8 65%,
+        #1e3a8a 100%
+      );
     height: calc(100dvh + 180px);
     padding: 220px 0 170px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
     position: relative;
     overflow: hidden;
+    color: white;
+    h1,
+    p,
+    .goToBtn {
+      color: white !important;
+    }
+    .goToBtn .hoveranim::before {
+      background-color: #f4b400;
+    }
     .content {
       @media (max-width: 1400px) {
         h1 {
@@ -1059,7 +1094,7 @@ export default {
     .statusBorder {
       position: relative;
       padding: 60px 80px;
-      background: linear-gradient(267.18deg, #161616 0%, #080808 100%);
+      background: linear-gradient(135deg, #1d4ed8, #1e3a8a);
       border-radius: 15px;
       margin-top: -130px;
       z-index: 1;
@@ -1106,6 +1141,7 @@ export default {
             font-size: 50px;
             margin-bottom: 20px;
             font-weight: bold;
+            color: white;
           }
           p {
             margin: 0;
@@ -1142,12 +1178,14 @@ export default {
               .kword {
                 font-size: 50px;
                 font-weight: 700;
+                color: white;
               }
             }
             .odometer {
               font-size: 50px;
               padding-top: 5px;
               font-weight: 700;
+              color: white;
             }
             .title {
               display: flex;
@@ -1170,6 +1208,22 @@ export default {
     }
   }
   .services {
+    background-color: #f9fafb;
+    padding: 80px 0;
+    border-radius: 20px;
+    margin-top: 60px;
+    .mainTitle {
+      color: #1d4ed8 !important;
+    }
+    .homeheadsec {
+      color: #6b7280 !important;
+    }
+    .goToBtn {
+      color: #1d4ed8 !important;
+    }
+    .goToBtn .hoveranim::before {
+      background-color: #1d4ed8;
+    }
     .content {
       @media (max-width: 1199px) {
         .info {
@@ -1525,8 +1579,9 @@ export default {
   }
   .comments {
     padding: 130px 0;
-    background: linear-gradient(267.18deg, #161616 0%, #080808 100%);
+    background: linear-gradient(135deg, #1d4ed8, #1e3a8a);
     position: relative;
+    color: white;
     .ppcol {
       display: flex;
       align-items: center;
@@ -1747,6 +1802,112 @@ export default {
       }
     }
   }
+  .howWeWork {
+    padding: 100px 0;
+    background-color: #f9fafb;
+    .section-head {
+      margin-bottom: 70px;
+      .mainTitle {
+        color: #1d4ed8 !important;
+      }
+    }
+    .steps {
+      @media (max-width: 767px) {
+        .step {
+          margin-bottom: 40px;
+        }
+      }
+      .step {
+        padding: 40px 30px;
+        background: white;
+        border-radius: 16px;
+        box-shadow: 0 4px 20px rgba(29, 78, 216, 0.08);
+        height: 100%;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        @media (min-width: 992px) {
+          &:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 30px rgba(29, 78, 216, 0.15);
+          }
+        }
+        .step-num {
+          font-size: 48px;
+          font-weight: 800;
+          color: #f4b400;
+          line-height: 1;
+          margin-bottom: 18px;
+        }
+        h4 {
+          font-size: 20px;
+          font-weight: 700;
+          color: #111827;
+          margin-bottom: 14px;
+        }
+        p {
+          font-size: 15px;
+          color: #6b7280;
+          line-height: 1.75;
+          margin: 0;
+        }
+      }
+    }
+  }
+  .techStack {
+    padding: 100px 0;
+    background: linear-gradient(
+      135deg,
+      #0a1628 0%,
+      #0f2460 30%,
+      #1d4ed8 65%,
+      #1e3a8a 100%
+    );
+    .section-head {
+      margin-bottom: 60px;
+      .homeheadsec {
+        color: rgba(255, 255, 255, 0.6) !important;
+      }
+      .mainTitle {
+        color: white !important;
+      }
+    }
+    .tech-grid {
+      row-gap: 24px;
+      .tech-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        padding: 28px 16px;
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 14px;
+        transition: all 0.3s ease;
+        cursor: default;
+        @media (min-width: 992px) {
+          &:hover {
+            background: rgba(244, 180, 0, 0.15);
+            border-color: #f4b400;
+            transform: translateY(-4px);
+            svg {
+              color: #f4b400;
+            }
+          }
+        }
+        svg {
+          font-size: 36px;
+          color: rgba(255, 255, 255, 0.8);
+          transition: color 0.3s ease;
+        }
+        span {
+          font-size: 13px;
+          font-weight: 600;
+          color: rgba(255, 255, 255, 0.75);
+          text-align: center;
+        }
+      }
+    }
+  }
   .meeting {
     @media (max-width: 991px) {
       .content {
@@ -1760,17 +1921,26 @@ export default {
     }
     .content {
       position: relative;
-      background: linear-gradient(267.18deg, #161616 0%, #080808 100%);
+      background: #f4b400;
       padding: 90px 30px;
       border-radius: 15px;
       text-align: center;
       overflow: hidden;
       .shape {
         z-index: 2 !important;
+        border-left-color: #1d4ed8 !important;
       }
       .mainTitle {
         position: relative;
         z-index: 3;
+        color: #111827 !important;
+      }
+      .goToBtn {
+        color: #111827 !important;
+      }
+      .mainBtn {
+        background-color: #1d4ed8 !important;
+        color: white !important;
       }
       .statusSvg {
         position: absolute;

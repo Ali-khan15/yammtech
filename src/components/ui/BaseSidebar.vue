@@ -84,7 +84,7 @@ export default {
   right: 0;
   overflow-y: auto;
   z-index: 1001;
-  background-color: #181818;
+  background-color: #080e24;
   padding: 90px 50px 50px;
   color: #ffffff;
   &::-webkit-scrollbar {

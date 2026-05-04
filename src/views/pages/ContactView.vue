@@ -31,7 +31,7 @@
                 </li>
               </ul>
               <div class="contact-note" style="margin-top: 30px">
-                <p style="color: #fefefeb3; font-size: 16px; line-height: 1.6">
+                <p style="color: #6b7280; font-size: 16px; line-height: 1.6">
                   Whether you're looking for a reliable software development
                   company, UI/UX design agency, mobile app development services,
                   expert SEO, or something else entirely we're excited to hear
@@ -39,7 +39,7 @@
                 </p>
                 <p
                   style="
-                    color: #fefefeb3;
+                    color: #6b7280;
                     font-size: 16px;
                     line-height: 1.6;
                     margin-top: 15px;
@@ -112,9 +112,7 @@ export default {
     };
   },
   mounted() {
-    const content = document.querySelector(".baseHero");
-    const imgload = this.$imagesLoaded(content);
-    imgload.on("done", () => {
+    this.$nextTick(() => {
       this.$store.dispatch("doneLoading", true);
     });
   },
@@ -143,7 +141,7 @@ export default {
               margin-right: 20px;
             }
           }
-          color: #fafafab3;
+          color: #4b5563;
           margin-bottom: 22px;
           font-size: 16px;
           &:last-of-type {

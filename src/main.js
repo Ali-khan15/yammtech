@@ -48,6 +48,7 @@ import {
   faCaretUp,
   faCaretDown,
   faCartArrowDown,
+  faCheckCircle,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faCircleRight,
@@ -58,6 +59,17 @@ import {
   faXTwitter,
   faYoutube,
   faGithub,
+  faReact,
+  faVuejs,
+  faNodeJs,
+  faPython,
+  faAws,
+  faDocker,
+  faAndroid,
+  faApple,
+  faFigma,
+  faJs,
+  faBootstrap,
 } from "@fortawesome/free-brands-svg-icons";
 // ui_components_start
 
@@ -108,7 +120,19 @@ library.add(
   faCartPlus,
   faCaretUp,
   faCaretDown,
-  faCartArrowDown
+  faCartArrowDown,
+  faCheckCircle,
+  faReact,
+  faVuejs,
+  faNodeJs,
+  faPython,
+  faAws,
+  faDocker,
+  faAndroid,
+  faApple,
+  faFigma,
+  faJs,
+  faBootstrap
 );
 
 const app = createApp(App);

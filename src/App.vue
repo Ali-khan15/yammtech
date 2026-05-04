@@ -134,7 +134,7 @@ body.no-scroll {
 }
 // bootstrap--root-values-start
 :root {
-  --bs-body-bg: #181818 !important;
+  --bs-body-bg: #ffffff !important;
 }
 // bootstrap--root-values-end
 // swiper--root-values-start
@@ -185,9 +185,9 @@ body.no-scroll {
   --vc-pgn-width: 16px !important;
   --vc-pgn-height: 16px !important;
   --vc-pgn-border-radius: 50% !important;
-  --vc-pgn-active-color: #181818 !important;
+  --vc-pgn-active-color: #ffffff !important;
   --vc-pgn-margin: 0 8px !important;
-  --vc-pgn-background-color: #1f51fe !important;
+  --vc-pgn-background-color: #1d4ed8 !important;
 }
 .carousel__pagination-button {
   &:hover {
@@ -254,10 +254,10 @@ body.no-scroll {
 
 // noUiSlider-override-end
 :root {
-  --prim-color: #1f51fe;
+  --prim-color: #1d4ed8;
 }
 .loading-screen {
-  background-color: #181818;
+  background-color: #1d4ed8;
   width: 100%;
   height: 100dvh;
   position: fixed;
@@ -302,10 +302,10 @@ body.no-scroll {
   }
 }
 body {
-  background-color: #181818;
+  background-color: #ffffff;
   padding: 0;
   margin: 0 !important;
-  color: white !important;
+  color: #111827 !important;
   .cursor-point {
     width: 8px;
     height: 8px;
@@ -331,7 +331,7 @@ body {
     visibility: hidden;
   }
   &.scroll-up header {
-    background-color: black;
+    background-color: #080e24;
     visibility: visible;
   }
   ul {
@@ -368,7 +368,7 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: black;
+    background-color: #1d4ed8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -406,7 +406,7 @@ body {
     font-size: 17px;
     font-weight: 500;
     width: fit-content;
-    color: #fefefe;
+    color: #111827;
     svg {
       margin-left: 15px;
     }
@@ -443,7 +443,7 @@ body {
       border: 2px solid white;
       cursor: pointer;
       border-radius: 6px;
-      background-color: #181818;
+      background-color: #1d4ed8;
       transition-duration: 0.4s;
       display: inline-flex;
       align-items: center;
@@ -541,7 +541,7 @@ body {
   }
   .homeheadsec {
     display: block;
-    color: #999696;
+    color: #6b7280;
     font-size: 19px;
     font-weight: 700;
     margin-bottom: 18px;
@@ -562,7 +562,7 @@ body {
   .mainTitle {
     font-size: 50px;
     margin: 0 0 45px;
-    color: #fefefe;
+    color: #111827;
     font-weight: 700;
     line-height: 1.3em;
   }
@@ -649,7 +649,7 @@ body {
   .mainP {
     display: block;
     margin-bottom: 30px;
-    color: #fefefeb3;
+    color: #6b7280;
     position: relative;
     font-size: 17px;
     &::after {
@@ -668,20 +668,26 @@ body {
     input,
     textarea,
     select {
-      background-color: transparent;
+      background-color: #f9fafb;
       padding: 10px 20px;
       border-radius: 15px;
-      border: 2px solid rgb(153, 150, 150);
+      border: 2px solid #e5e7eb;
       margin-bottom: 20px;
+      color: #111827;
       transition-duration: 0.3s;
+      &::placeholder {
+        color: #9ca3af;
+      }
       &:focus {
         outline: none;
         border-color: var(--prim-color);
+        background-color: #fff;
       }
     }
     label {
       margin-bottom: 12px;
-      color: #fefefeb3;
+      color: #374151;
+      font-weight: 500;
     }
   }
   .img-container {

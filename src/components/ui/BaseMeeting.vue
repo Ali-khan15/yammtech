@@ -57,7 +57,7 @@ export default {
   }
   .content {
     position: relative;
-    background: linear-gradient(267.18deg, #161616 0%, #080808 100%);
+    background: #f4b400;
     padding: 90px 30px;
     border-radius: 15px;
     text-align: center;
@@ -69,6 +69,11 @@ export default {
       position: relative;
       z-index: 3;
       margin-bottom: 0;
+      color: #111827 !important;
+    }
+    .mainBtn {
+      background-color: #1d4ed8 !important;
+      color: white !important;
     }
     .statusSvg {
       position: absolute;

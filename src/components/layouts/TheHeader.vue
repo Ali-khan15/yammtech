@@ -177,6 +177,7 @@ header {
   left: 0;
   z-index: 999;
   width: 100%;
+  background-color: #080e24;
   transition: all 300ms ease-in-out;
 
   @media (max-width: 1199px) {
@@ -346,7 +347,7 @@ header {
 
           @media (min-width: 992px) {
             .aLinks:hover {
-              color: var(--prim-color) !important;
+              color: #f4b400 !important;
             }
           }
 
@@ -374,9 +375,9 @@ header {
       position: absolute;
       top: 80px;
       left: 0px;
-      background-color: #181818;
+      background-color: #080e24;
       width: 100%;
-      border-bottom: 1px solid rgba(77, 77, 77, 0.3215686275);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 
       ul.mainul {
         padding: 10px 0;

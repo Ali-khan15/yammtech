@@ -313,28 +313,28 @@
                 <li>
                   <font-awesome-icon
                     icon="fa-solid fa-check-circle"
-                    style="color: #1f51fe"
+                    style="color: #1d4ed8"
                   />
                   <span>IT Strategy & Roadmap</span>
                 </li>
                 <li>
                   <font-awesome-icon
                     icon="fa-solid fa-check-circle"
-                    style="color: #1f51fe"
+                    style="color: #1d4ed8"
                   />
                   <span>Technology Stack Advisory</span>
                 </li>
                 <li>
                   <font-awesome-icon
                     icon="fa-solid fa-check-circle"
-                    style="color: #1f51fe"
+                    style="color: #1d4ed8"
                   />
                   <span>Digital Transformation</span>
                 </li>
                 <li>
                   <font-awesome-icon
                     icon="fa-solid fa-check-circle"
-                    style="color: #1f51fe"
+                    style="color: #1d4ed8"
                   />
                   <span>Architecture Review & Optimization</span>
                 </li>
@@ -624,12 +624,12 @@ export default {
           }
         }
         .linkcont {
-          color: #fefefe;
+          color: #111827;
           display: flex;
           align-items: center;
           justify-content: space-between;
           padding: 25px 0;
-          border-bottom: 1px solid #4d4d4d;
+          border-bottom: 1px solid #e5e7eb;
           cursor: pointer;
           &.active {
             .arrowIcon {
@@ -648,7 +648,7 @@ export default {
             }
             p {
               font-size: 17px;
-              color: #fefefeb3;
+              color: #6b7280;
               margin-bottom: 0;
             }
           }
@@ -714,8 +714,8 @@ export default {
     .consulting-badge {
       display: inline-block;
       padding: 5px 15px;
-      background-color: rgba(31, 81, 254, 0.15);
-      color: #1f51fe;
+      background-color: rgba(29, 78, 216, 0.12);
+      color: #1d4ed8;
       border-radius: 30px;
       font-size: 14px;
       font-weight: 600;
@@ -727,7 +727,7 @@ export default {
     }
 
     .consulting-desc {
-      color: #fefefeb3;
+      color: #6b7280;
       font-size: 18px;
       line-height: 1.8;
       margin-bottom: 30px;
@@ -748,7 +748,7 @@ export default {
         }
 
         span {
-          color: #fefefe;
+          color: #111827;
           font-size: 17px;
         }
       }
@@ -855,7 +855,12 @@ export default {
     }
 
     .approach-card {
-      background: linear-gradient(267.18deg, #161616 0%, #080808 100%);
+      background: linear-gradient(
+        135deg,
+        #0a1628 0%,
+        #0f2460 40%,
+        #1d4ed8 100%
+      );
       border-radius: 15px;
       padding: 40px 30px;
       position: relative;
@@ -867,7 +872,7 @@ export default {
       &:hover {
         transform: translateY(-10px);
         border-color: var(--prim-color);
-        box-shadow: 0 20px 40px rgba(31, 81, 254, 0.15);
+        box-shadow: 0 20px 40px rgba(29, 78, 216, 0.25);
 
         .approach-icon {
           background-color: var(--prim-color);
@@ -879,7 +884,7 @@ export default {
         width: 70px;
         height: 70px;
         border-radius: 50%;
-        background-color: rgba(31, 81, 254, 0.1);
+        background-color: rgba(29, 78, 216, 0.15);
         color: var(--prim-color);
         font-size: 32px;
         display: flex;
@@ -911,7 +916,7 @@ export default {
       .approach-tag {
         display: inline-block;
         padding: 5px 15px;
-        background-color: rgba(31, 81, 254, 0.15);
+        background-color: rgba(29, 78, 216, 0.12);
         color: var(--prim-color);
         border-radius: 30px;
         font-size: 14px;

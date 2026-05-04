@@ -93,8 +93,8 @@
 
 <style lang="scss" scoped>
 :root {
-  --yammtech-blue: #1f51fe;
-  --yammtech-yellow: #ffc42e;
+  --yammtech-blue: #1d4ed8;
+  --yammtech-yellow: #f4b400;
 }
 
 @media (max-width: 991px) {
@@ -106,7 +106,7 @@
 footer {
   margin-top: 95px;
   color: #fefefeb3;
-  background: linear-gradient(267.18deg, #161616 0%, #080808 100%);
+  background-color: #080e24;
   padding: 60px 0 0;
 
   @media (max-width: 991px) {
@@ -265,7 +265,7 @@ footer {
           &:focus {
             outline: none;
             border-color: var(--yammtech-blue);
-            background: rgba(31, 81, 254, 0.1);
+            background: rgba(29, 78, 216, 0.1);
           }
 
           &::placeholder {
@@ -287,9 +287,9 @@ footer {
 
           @media (min-width: 992px) {
             &:hover {
-              background: #0a3bff;
+              background: #1e3a8a;
               transform: translateY(-2px);
-              box-shadow: 0 5px 15px rgba(31, 81, 254, 0.3);
+              box-shadow: 0 5px 15px rgba(29, 78, 216, 0.4);
             }
           }
         }

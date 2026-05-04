@@ -153,25 +153,22 @@ router.beforeEach(function (to, from, next) {
 
 router.afterEach(function () {
   window.scrollTo({ top: 0, left: 0, behavior: "instant" });
-  // reset mdLinks-start
-
   const mdlinks = document.querySelector(".mdlinks");
   const mdbars = document.querySelector(".mdbars");
-  mdlinks.classList.remove("show");
-  mdbars.classList.remove("activebars");
-  mdbars.setAttribute("aria-expanded", false);
+  if (mdlinks) mdlinks.classList.remove("show");
+  if (mdbars) {
+    mdbars.classList.remove("activebars");
+    mdbars.setAttribute("aria-expanded", false);
+  }
   const openlinks = document.querySelectorAll(".openlinks");
-  const shoplinks = document.querySelector("#shoplinks");
-  const pageslinks = document.querySelector("#pageslinks");
-
   openlinks.forEach((link) => {
     link.setAttribute("aria-expanded", false);
     link.classList.add("collapsed");
   });
-  shoplinks.classList.remove("show");
-  pageslinks.classList.remove("show");
-
-  // reset mdLinks-end
+  const shoplinks = document.querySelector("#shoplinks");
+  const pageslinks = document.querySelector("#pageslinks");
+  if (shoplinks) shoplinks.classList.remove("show");
+  if (pageslinks) pageslinks.classList.remove("show");
 });
 
 export default router;

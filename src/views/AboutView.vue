@@ -249,7 +249,7 @@ export default {
     p:first-of-type {
       display: block;
       margin-bottom: 15px;
-      color: #fefefeb3;
+      color: #6b7280;
       font-size: 17px;
     }
   }

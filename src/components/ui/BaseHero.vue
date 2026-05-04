@@ -1,6 +1,6 @@
 <template>
   <div class="heroSec">
-    <div class="content" :style="{ backgroundImage: `url(${imgUrl})` }">
+    <div class="content">
       <div class="container">
         <div class="head">
           <slot name="head"></slot>
@@ -41,25 +41,41 @@ export default {
   }
   .content {
     position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: radial-gradient(
+        ellipse 80% 70% at 15% 60%,
+        rgba(59, 130, 246, 0.35) 0%,
+        transparent 60%
+      ),
+      radial-gradient(
+        ellipse 55% 50% at 80% 15%,
+        rgba(99, 102, 241, 0.2) 0%,
+        transparent 55%
+      ),
+      linear-gradient(
+        145deg,
+        #0a1628 0%,
+        #0f2460 30%,
+        #1d4ed8 65%,
+        #1e3a8a 100%
+      );
     width: 100%;
     height: 650px;
     padding: 120px 0 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
     &::after {
       content: "";
       position: absolute;
-      top: 0px;
-      right: 0px;
-      width: 151px;
-      height: 151px;
-      opacity: 0.7;
-      background-color: var(--prim-color);
-      filter: blur(125px);
+      bottom: -60px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 70%;
+      height: 120px;
+      background: rgba(29, 78, 216, 0.15);
+      filter: blur(60px);
+      border-radius: 50%;
     }
     .head {
       display: flex;
@@ -70,6 +86,7 @@ export default {
       font-weight: 700;
       margin-bottom: 18px;
       text-transform: capitalize;
+      color: white;
     }
     .nav {
       display: flex;
@@ -83,7 +100,7 @@ export default {
         font-weight: 500;
       }
       a {
-        color: #999696;
+        color: rgba(255, 255, 255, 0.6);
         padding-right: 14px;
         position: relative;
         transition-duration: 0.3s;
@@ -95,11 +112,11 @@ export default {
           right: 0;
           height: 70%;
           width: 2px;
-          background-color: white;
+          background-color: rgba(255, 255, 255, 0.4);
         }
         @media (min-width: 992px) {
           &:hover {
-            color: var(--prim-color);
+            color: #f4b400;
           }
         }
       }
