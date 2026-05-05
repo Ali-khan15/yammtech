@@ -362,17 +362,27 @@
     </div>
 
     <!-- WHY CHOOSE YAMMTECH SECTION -->
-    <div class="ourFunFact" style="margin-bottom: 0">
+    <div class="ourFunFact" style="margin-bottom: 0; margin-top: 220px">
       <div class="container">
-        <div class="statusBorder">
+        <div
+          class="statusBorder"
+          style="
+            background: linear-gradient(
+              135deg,
+              #f4b400 0%,
+              #f59e0b 50%,
+              #d97706 100%
+            );
+          "
+        >
           <img
             src="../../imgs/homeAssets/funfact_shape_bg.svg"
             alt="why choose us"
           />
           <div class="status">
             <div class="info" style="width: 100%">
-              <h1>Why Choose YammTech?</h1>
-              <p>
+              <h1 style="color: #111827">Why Choose YammTech?</h1>
+              <p style="color: #1f2937">
                 Seasoned developers, designers, SEO specialists, and marketers
                 under one roof<br />
                 Fully custom solutions tailored to your industry and goals<br />
@@ -380,7 +390,7 @@
                 Ongoing support so your product keeps improving<br />
                 Focus on ROI — we build for growth, not just looks
               </p>
-              <p style="margin-top: 30px; font-style: italic">
+              <p style="margin-top: 30px; font-style: italic; color: #1f2937">
                 We don't just create apps or websites — we build digital systems
                 that help your business thrive.
               </p>
@@ -1094,7 +1104,7 @@ export default {
     .statusBorder {
       position: relative;
       padding: 60px 80px;
-      background: linear-gradient(135deg, #1d4ed8, #1e3a8a);
+      background: #f4b400;
       border-radius: 15px;
       margin-top: -130px;
       z-index: 1;
@@ -1141,11 +1151,11 @@ export default {
             font-size: 50px;
             margin-bottom: 20px;
             font-weight: bold;
-            color: white;
+            color: #111827;
           }
           p {
             margin: 0;
-            color: #fefefeb3;
+            color: #374151;
             line-height: 1.75em;
             font-size: 17px;
           }
@@ -1178,14 +1188,14 @@ export default {
               .kword {
                 font-size: 50px;
                 font-weight: 700;
-                color: white;
+                color: #111827;
               }
             }
             .odometer {
               font-size: 50px;
               padding-top: 5px;
               font-weight: 700;
-              color: white;
+              color: #111827;
             }
             .title {
               display: flex;
@@ -1194,11 +1204,11 @@ export default {
               align-items: start;
               margin-left: 13px;
               svg {
-                color: var(--prim-color);
+                color: #111827;
                 font-size: 13px;
               }
               span {
-                color: #fefefeb3;
+                color: #374151;
                 font-size: 17px;
               }
             }
