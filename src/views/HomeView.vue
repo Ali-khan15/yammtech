@@ -8,26 +8,22 @@
           <div class="shape"></div>
           <div class="shape"></div>
           <h1 class="head">
-            Your Trusted Software Development Company for Smart, Scalable
+            YammTech — Your Trusted Software Development Partner for Scalable
             Digital Solutions
           </h1>
           <div class="getaQuote">
             <div class="getaq-btn">
               <router-link to="/contact">
                 <div class="cont goToBtn">
-                  <span class="hoveranim"
-                    >Book Your Free Consultation Today</span
-                  >
+                  <span class="hoveranim">Book Your Free Consultation</span>
                   <font-awesome-icon icon="fa-solid fa-arrow-right-long" />
                 </div>
               </router-link>
             </div>
             <p>
-              At YammTech, we're a full-service digital agency specializing in
-              beautiful UI/UX design, fast website development, powerful mobile
-              apps, result-driven SEO, digital marketing, fintech software, AI
-              video creation, and stunning interior 3D renderings — all designed
-              to help your business grow.
+              We design, build, and scale powerful digital products — from
+              websites to AI-driven systems — helping businesses grow faster and
+              smarter.
             </p>
           </div>
           <div class="scrollDown"></div>
@@ -51,17 +47,15 @@
           />
           <div class="status">
             <div class="info">
-              <h1>Grow Smarter with a Partner You Can Trust</h1>
+              <h1>Who We Are</h1>
               <p>
-                YammTech is more than just another software development company.
-                We partner with startups, growing businesses, and established
-                brands to turn ideas into high-performing digital products that
-                actually deliver results. Our team blends creative UI/UX design,
-                clean code, strategic SEO & marketing, and innovative tech (like
-                AI tools and fintech systems) so you get solutions built for
-                real users — and real business growth. We care about
-                performance, clean user experiences, and long-term success — not
-                just shipping a project and moving on.
+                YammTech is a full-service digital agency helping startups,
+                growing businesses, and established brands turn ideas into
+                high-performing digital products. We bring together expert
+                developers, designers, SEO specialists, and marketers under one
+                roof — so everything works together to drive real business
+                growth. We care about performance, clean user experiences, and
+                long-term success — not just shipping a project and moving on.
               </p>
             </div>
             <div class="nums row gy-3">
@@ -108,8 +102,8 @@
         <div class="content">
           <div class="row">
             <div class="col-xl-4 col-12 info">
-              <span class="homeheadsec">Our Core Services</span>
-              <p class="mainTitle">Services we can help you with</p>
+              <span class="homeheadsec">What We Do</span>
+              <p class="mainTitle">Expert Solutions for Every Business Need</p>
               <router-link aria-label="services" to="/services">
                 <div class="servicesbtn goToBtn">
                   <div class="hoveranim">See All Services</div>
@@ -126,7 +120,7 @@
                     src="../../imgs/homeAssets/service_1.webp"
                     alt="UI/UX design"
                   />
-                  <span class="title">UI/UX Design Agency</span>
+                  <span class="title">UI/UX Design</span>
                 </div>
               </div>
               <div class="box col-lg-3 col-sm-6 col-12 d-none d-lg-block"></div>
@@ -137,7 +131,7 @@
                     src="../../imgs/homeAssets/service_2.webp"
                     alt="Website Development"
                   />
-                  <span class="title">Website Development Company</span>
+                  <span class="title">Web Development</span>
                 </div>
               </div>
               <div class="box box-tilt col-lg-3 col-sm-6 col-12">
@@ -147,7 +141,7 @@
                     src="../../imgs/homeAssets/service_3.webp"
                     alt="Mobile App Development"
                   />
-                  <span class="title">Mobile App Development Services</span>
+                  <span class="title">Mobile App Development</span>
                 </div>
               </div>
               <div class="box col-lg-3 col-sm-6 col-12 d-none d-lg-block"></div>
@@ -158,7 +152,7 @@
                     src="../../imgs/homeAssets/service_4.webp"
                     alt="SEO Services"
                   />
-                  <span class="title">Professional SEO Services</span>
+                  <span class="title">Digital Marketing & SEO</span>
                 </div>
               </div>
               <div class="box col-lg-3 col-sm-6 col-12 d-none d-lg-block"></div>
@@ -184,7 +178,7 @@
                     src="../../imgs/homeAssets/service_1.webp"
                     alt="Digital Marketing"
                   />
-                  <span class="title">Digital Marketing Agency</span>
+                  <span class="title">AI & Automation Solutions</span>
                 </div>
               </div>
               <div class="box col-lg-3 col-sm-6 col-12 d-none d-lg-block"></div>
@@ -195,7 +189,7 @@
                     src="../../imgs/homeAssets/service_2.webp"
                     alt="Fintech Development"
                   />
-                  <span class="title">Fintech Software Development</span>
+                  <span class="title">Fintech & Custom Software</span>
                 </div>
               </div>
               <div class="box box-tilt col-lg-3 col-sm-6 col-12">
@@ -232,24 +226,24 @@
           <span class="homeheadsec">Our Process</span>
           <p class="mainTitle">How We Work</p>
         </div>
-        <div class="row steps">
+        <div class="row steps justify-content-center">
           <div class="col-lg-3 col-sm-6 col-12">
             <div class="step">
               <div class="step-num">01</div>
-              <h4>Discovery</h4>
+              <h4>Consultation</h4>
               <p>
-                We start by deeply understanding your business goals, target
-                audience, and technical requirements to build a clear roadmap.
+                We start with a free discovery call to understand your goals,
+                challenges, and vision before anything else.
               </p>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6 col-12">
             <div class="step">
               <div class="step-num">02</div>
-              <h4>Design</h4>
+              <h4>Planning</h4>
               <p>
-                Our UI/UX team crafts intuitive, pixel-perfect designs that
-                reflect your brand and create seamless user experiences.
+                We build a detailed project roadmap — scope, timeline,
+                technology stack, and design strategy — aligned to your goals.
               </p>
             </div>
           </div>
@@ -258,18 +252,28 @@
               <div class="step-num">03</div>
               <h4>Development</h4>
               <p>
-                We build your product with clean, scalable code using modern
-                frameworks — tested rigorously at every stage.
+                Our engineers build your product with clean, scalable code using
+                modern frameworks — tested rigorously at every stage.
               </p>
             </div>
           </div>
           <div class="col-lg-3 col-sm-6 col-12">
             <div class="step">
               <div class="step-num">04</div>
-              <h4>Launch & Support</h4>
+              <h4>Launch</h4>
               <p>
-                We deploy your product, monitor performance, and provide ongoing
-                support to keep everything running at its best.
+                We deploy your product with full QA testing, performance
+                optimization, and a smooth go-live process.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 col-12">
+            <div class="step">
+              <div class="step-num">05</div>
+              <h4>Support</h4>
+              <p>
+                After launch, we monitor, maintain, and continuously improve
+                your product so it keeps growing with your business.
               </p>
             </div>
           </div>
@@ -382,14 +386,87 @@
           <div class="status">
             <div class="info" style="width: 100%">
               <h1 style="color: #111827">Why Choose YammTech?</h1>
-              <p style="color: #1f2937">
-                Seasoned developers, designers, SEO specialists, and marketers
-                under one roof<br />
-                Fully custom solutions tailored to your industry and goals<br />
-                On-time delivery with clear communication<br />
-                Ongoing support so your product keeps improving<br />
-                Focus on ROI — we build for growth, not just looks
-              </p>
+              <ul
+                style="list-style: none; padding: 0; margin: 0; color: #1f2937"
+              >
+                <li
+                  style="
+                    margin-bottom: 14px;
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 10px;
+                  "
+                >
+                  <font-awesome-icon
+                    icon="fa-solid fa-check-circle"
+                    style="color: #111827; margin-top: 3px; flex-shrink: 0"
+                  />
+                  <span
+                    >Seasoned developers, designers, SEO specialists, and
+                    marketers under one roof</span
+                  >
+                </li>
+                <li
+                  style="
+                    margin-bottom: 14px;
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 10px;
+                  "
+                >
+                  <font-awesome-icon
+                    icon="fa-solid fa-check-circle"
+                    style="color: #111827; margin-top: 3px; flex-shrink: 0"
+                  />
+                  <span
+                    >Fully custom solutions tailored to your industry and
+                    goals</span
+                  >
+                </li>
+                <li
+                  style="
+                    margin-bottom: 14px;
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 10px;
+                  "
+                >
+                  <font-awesome-icon
+                    icon="fa-solid fa-check-circle"
+                    style="color: #111827; margin-top: 3px; flex-shrink: 0"
+                  />
+                  <span
+                    >On-time delivery with clear communication at every
+                    step</span
+                  >
+                </li>
+                <li
+                  style="
+                    margin-bottom: 14px;
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 10px;
+                  "
+                >
+                  <font-awesome-icon
+                    icon="fa-solid fa-check-circle"
+                    style="color: #111827; margin-top: 3px; flex-shrink: 0"
+                  />
+                  <span
+                    >Ongoing support so your product keeps improving after
+                    launch</span
+                  >
+                </li>
+                <li style="display: flex; align-items: flex-start; gap: 10px">
+                  <font-awesome-icon
+                    icon="fa-solid fa-check-circle"
+                    style="color: #111827; margin-top: 3px; flex-shrink: 0"
+                  />
+                  <span
+                    >Focus on ROI — we build for growth, not just looks</span
+                  >
+                </li>
+              </ul>
               <p style="margin-top: 30px; font-style: italic; color: #1f2937">
                 We don't just create apps or websites — we build digital systems
                 that help your business thrive.
@@ -581,8 +658,8 @@
     <!-- CTA SECTION - Keep -->
     <base-meeting :btn="true">
       <template #default>
-        Let's discuss make <br />
-        something cool together
+        Ready to Grow Your Business? <br />
+        Let's build something amazing together.
       </template>
     </base-meeting>
   </div>
@@ -1218,7 +1295,14 @@ export default {
     }
   }
   .services {
-    background-color: #f9fafb;
+    background-color: #ffffff;
+    background-image: linear-gradient(
+        rgba(244, 180, 0, 0.1) 1px,
+        transparent 1px
+      ),
+      linear-gradient(90deg, rgba(244, 180, 0, 0.1) 1px, transparent 1px);
+    background-size: 38px 38px;
+    border: 1.5px solid rgba(244, 180, 0, 0.25);
     padding: 80px 0;
     border-radius: 20px;
     margin-top: 60px;
@@ -1226,7 +1310,16 @@ export default {
       color: #1d4ed8 !important;
     }
     .homeheadsec {
-      color: #6b7280 !important;
+      display: inline-block;
+      background: #f4b400;
+      color: #111827 !important;
+      font-size: 13px !important;
+      font-weight: 700 !important;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 20px;
+      margin-bottom: 14px;
     }
     .goToBtn {
       color: #1d4ed8 !important;
@@ -1257,15 +1350,19 @@ export default {
             position: relative;
             display: block;
             overflow: hidden;
-            border-radius: 10px;
+            border-radius: 12px;
             text-decoration: none;
             color: white;
             font-size: 24px;
             font-weight: 500;
-            transition-duration: 0.5s;
+            transition: all 0.4s ease;
+            border: 2px solid rgba(29, 78, 216, 0.3);
+            box-shadow: 0 10px 32px rgba(29, 78, 216, 0.45);
             @media (min-width: 992px) {
               &:hover {
-                filter: drop-shadow(0px 0px 30px rgba(31, 81, 254, 0.5));
+                box-shadow: 0 18px 48px rgba(244, 180, 0, 0.6);
+                border-color: #f4b400;
+                transform: translateY(-6px);
               }
             }
             &::before {
@@ -1275,7 +1372,21 @@ export default {
               left: 0;
               width: 100%;
               height: 100%;
-              background-color: rgba(0, 0, 0, 0.486);
+              background: linear-gradient(
+                160deg,
+                rgba(10, 22, 40, 0.78) 0%,
+                rgba(29, 78, 216, 0.52) 100%
+              );
+              transition: background 0.4s ease;
+            }
+            @media (min-width: 992px) {
+              &:hover::before {
+                background: linear-gradient(
+                  160deg,
+                  rgba(10, 22, 40, 0.6) 0%,
+                  rgba(244, 180, 0, 0.3) 100%
+                );
+              }
             }
             span {
               position: absolute;
@@ -1284,12 +1395,20 @@ export default {
               transform: translate(-50%, -50%);
               text-align: center;
               width: 90%;
+              text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+              letter-spacing: 0.3px;
             }
             img {
               width: 100%;
               height: 100%;
               max-width: 100%;
               max-height: 100%;
+              transition: transform 0.5s ease;
+            }
+            @media (min-width: 992px) {
+              &:hover img {
+                transform: scale(1.07);
+              }
             }
           }
         }
@@ -1808,6 +1927,13 @@ export default {
           max-width: 100%;
           width: 100%;
           height: auto;
+          filter: brightness(0) invert(0.45);
+          transition: filter 0.3s ease;
+        }
+        @media (min-width: 992px) {
+          &:hover img {
+            filter: brightness(0) invert(0.15);
+          }
         }
       }
     }

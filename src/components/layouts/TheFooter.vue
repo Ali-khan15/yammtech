@@ -12,9 +12,9 @@
               />
             </div>
             <p>
-              YammTech delivers enterprise-grade software solutions to
-              businesses worldwide. From concept to deployment, we build digital
-              products that drive growth and innovation.
+              YammTech — Building Smart Digital Solutions for the Future. We
+              help businesses grow through clean code, creative design, and
+              intelligent technology.
             </p>
             <div class="socials">
               <div class="social">

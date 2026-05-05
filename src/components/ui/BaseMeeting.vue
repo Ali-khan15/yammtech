@@ -24,7 +24,7 @@
           <slot></slot>
         </h1>
         <div v-if="btn" class="meetingBtn goToBtn">
-          <div class="hoveranim">Apply For Meeting</div>
+          <div class="hoveranim">Get Started Today</div>
           <font-awesome-icon icon="fa-solid fa-arrow-right-long" />
         </div>
       </div>
