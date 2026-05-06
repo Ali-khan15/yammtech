@@ -192,16 +192,7 @@
                   <span class="title">Fintech & Custom Software</span>
                 </div>
               </div>
-              <div class="box box-tilt col-lg-3 col-sm-6 col-12">
-                <div class="box-container">
-                  <img
-                    loading="lazy"
-                    src="../../imgs/homeAssets/service_3.webp"
-                    alt="AI Video Creation"
-                  />
-                  <span class="title">AI Video Creation Services</span>
-                </div>
-              </div>
+              <div class="box col-lg-3 col-sm-6 col-12 d-none d-lg-block"></div>
               <div class="box col-lg-3 col-sm-6 col-12 d-none d-lg-block"></div>
               <div class="box box-tilt col-lg-3 col-sm-6 col-12">
                 <div class="box-container">
@@ -211,6 +202,17 @@
                     alt="3D Rendering"
                   />
                   <span class="title">Interior Design & 3D Rendering</span>
+                </div>
+              </div>
+              <div class="box col-lg-3 col-sm-6 col-12 d-none d-lg-block"></div>
+              <div class="box box-tilt col-lg-3 col-sm-6 col-12">
+                <div class="box-container">
+                  <img
+                    loading="lazy"
+                    src="../../imgs/homeAssets/service_3.webp"
+                    alt="AI Video Creation"
+                  />
+                  <span class="title">AI Video Creation Services</span>
                 </div>
               </div>
             </div>
@@ -227,7 +229,7 @@
           <p class="mainTitle">How We Work</p>
         </div>
         <div class="row steps justify-content-center">
-          <div class="col-lg-3 col-sm-6 col-12">
+          <div class="col-lg-4 col-sm-6 col-12">
             <div class="step">
               <div class="step-num">01</div>
               <h4>Consultation</h4>
@@ -237,7 +239,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6 col-12">
+          <div class="col-lg-4 col-sm-6 col-12">
             <div class="step">
               <div class="step-num">02</div>
               <h4>Planning</h4>
@@ -247,7 +249,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6 col-12">
+          <div class="col-lg-4 col-sm-6 col-12">
             <div class="step">
               <div class="step-num">03</div>
               <h4>Development</h4>
@@ -257,7 +259,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6 col-12">
+          <div class="col-lg-4 col-sm-6 col-12">
             <div class="step">
               <div class="step-num">04</div>
               <h4>Launch</h4>
@@ -267,7 +269,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6 col-12">
+          <div class="col-lg-4 col-sm-6 col-12">
             <div class="step">
               <div class="step-num">05</div>
               <h4>Support</h4>
@@ -1948,6 +1950,7 @@ export default {
       }
     }
     .steps {
+      row-gap: 30px;
       @media (max-width: 767px) {
         .step {
           margin-bottom: 40px;
